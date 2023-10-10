@@ -1,0 +1,87 @@
+{
+"ref_sektor_utama": [
+	{
+		"id" : 1,
+		"name" : "Pentadbiran",
+		"kod_sektor_utama" : "1",
+		"penerangan_sektor_utama" : null,
+		"bahagian_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.433Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.433Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-04T16:57:52.107Z",
+		"updated_at" : "2022-12-04T16:57:52.107Z"
+	},
+	{
+		"id" : 2,
+		"name" : "Ekonomi",
+		"kod_sektor_utama" : "2",
+		"penerangan_sektor_utama" : null,
+		"bahagian_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.433Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.433Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-04T16:57:52.107Z",
+		"updated_at" : "2022-12-04T16:57:52.107Z"
+	},
+	{
+		"id" : 3,
+		"name" : "Sosial",
+		"kod_sektor_utama" : "3",
+		"penerangan_sektor_utama" : null,
+		"bahagian_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.433Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.433Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-04T16:57:52.107Z",
+		"updated_at" : "2022-12-04T16:57:52.107Z"
+	},
+	{
+		"id" : 4,
+		"name" : "Keselamatan",
+		"kod_sektor_utama" : "4",
+		"penerangan_sektor_utama" : null,
+		"bahagian_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.433Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.433Z",
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 5,
+		"name" : "Ekonomi",
+		"kod_sektor_utama" : "5",
+		"penerangan_sektor_utama" : null,
+		"bahagian_id" : 2,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.433Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.433Z",
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 6,
+		"name" : "Pentadbiran",
+		"kod_sektor_utama" : "6",
+		"penerangan_sektor_utama" : null,
+		"bahagian_id" : 3,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.433Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.433Z",
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	}
+]}

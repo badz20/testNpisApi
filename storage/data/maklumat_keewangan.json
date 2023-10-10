@@ -1,0 +1,56 @@
+{
+    "maklumat_keewangan": [
+        {
+            "kod_projek"  : "P33135005092801",
+            "kos_keseluruhan"  : "10000000.00",
+            "tahun_kewangan"  : 2023,
+            "dijana_oleh_tarikh_jana" : "2023-01-09T06:06:59.440Z",
+            "dibuat_oleh"  : 1,
+            "dibuat_pada"  : "2023-01-09T06:06:59.440Z",
+            "dikemaskini_oleh"  : 1,
+            "dikemaskini_pada"  : "2023-01-09T06:06:59.440Z",
+            "row_status" : 1,
+            "created_at" : null,
+            "updated_at" : null
+        },
+        {
+            "kod_projek"  : "P33151005013009",
+            "kos_keseluruhan"  : "50000000.00",
+            "tahun_kewangan"  : 2024,
+            "dijana_oleh_tarikh_jana" : "2023-01-09T06:06:59.440Z",
+            "dibuat_oleh"  : 1,
+            "dibuat_pada"  : "2023-01-09T06:06:59.440Z",
+            "dikemaskini_oleh"  : 1,
+            "dikemaskini_pada"  : "2023-01-09T06:06:59.440Z",
+            "row_status" : 1,
+            "created_at" : null,
+            "updated_at" : null
+        },
+        {
+            "kod_projek"  : "P33167005063223",
+            "kos_keseluruhan"  : "10000000.00",
+            "tahun_kewangan"  : 2022,
+            "dijana_oleh_tarikh_jana" : "2023-01-09T06:06:59.440Z",
+            "dibuat_oleh"  : 1,
+            "dibuat_pada"  : "2023-01-09T06:06:59.440Z",
+            "dikemaskini_oleh"  : 1,
+            "dikemaskini_pada"  : "2023-01-09T06:06:59.440Z",
+            "row_status" : 1,
+            "created_at" : null,
+            "updated_at" : null
+        },
+        {
+            "kod_projek"  : "P33135005152810",
+            "kos_keseluruhan"  : "180000000.00",
+            "tahun_kewangan"  : 2024,
+            "dijana_oleh_tarikh_jana" : "2023-01-09T06:06:59.440Z",
+            "dibuat_oleh"  : 1,
+            "dibuat_pada"  : "2023-01-09T06:06:59.440Z",
+            "dikemaskini_oleh"  : 1,
+            "dikemaskini_pada"  : "2023-01-09T06:06:59.440Z",
+            "row_status" : 1,
+            "created_at" : null,
+            "updated_at" : null
+        }
+]}
+    

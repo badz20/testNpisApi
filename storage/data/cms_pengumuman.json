@@ -1,0 +1,45 @@
+{
+"cms_pengumuman": [
+	{
+		"id" : 1,
+		"tajuk" : "teat",
+		"sub_tajuk" : "test",
+		"keterangan" : "<p>test<\/p>",
+		"tarikh" : "2023-01-02T16:00:00.000Z",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-03T07:45:35.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-03T07:45:35.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-03T07:45:35.710Z",
+		"updated_at" : "2023-01-03T07:45:35.710Z"
+	},
+	{
+		"id" : 2,
+		"tajuk" : "teat",
+		"sub_tajuk" : "test",
+		"keterangan" : "<p>test<\/p>",
+		"tarikh" : "2023-01-02T16:00:00.000Z",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-03T07:45:38.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-03T07:45:38.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-03T07:45:38.897Z",
+		"updated_at" : "2023-01-03T07:45:38.897Z"
+	},
+	{
+		"id" : 3,
+		"tajuk" : "teat",
+		"sub_tajuk" : "test",
+		"keterangan" : "<p>test<\/p>",
+		"tarikh" : "2023-01-02T16:00:00.000Z",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-03T07:45:40.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-03T07:45:40.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-03T07:45:40.127Z",
+		"updated_at" : "2023-01-03T07:45:40.127Z"
+	}
+]}

@@ -1,0 +1,179 @@
+{
+"REF_Unit": [
+	{
+		"id" : 1,
+		"nama_unit" : "Batang",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.387Z",
+		"updated_at" : "2022-12-26T05:24:09.387Z"
+	},
+	{
+		"id" : 2,
+		"nama_unit" : "Blok",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.503Z",
+		"updated_at" : "2022-12-26T05:24:09.503Z"
+	},
+	{
+		"id" : 3,
+		"nama_unit" : "Kilometer, km",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.507Z",
+		"updated_at" : "2022-12-26T05:24:09.507Z"
+	},
+	{
+		"id" : 4,
+		"nama_unit" : "Ringgit Malaysia, RM",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.507Z",
+		"updated_at" : "2022-12-26T05:24:09.507Z"
+	},
+	{
+		"id" : 5,
+		"nama_unit" : "Unit",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.510Z",
+		"updated_at" : "2022-12-26T05:24:09.510Z"
+	},
+	{
+		"id" : 6,
+		"nama_unit" : "Meter, m",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.510Z",
+		"updated_at" : "2022-12-26T05:24:09.510Z"
+	},
+	{
+		"id" : 7,
+		"nama_unit" : "Meter Padu, m3",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.513Z",
+		"updated_at" : "2022-12-26T05:24:09.513Z"
+	},
+	{
+		"id" : 8,
+		"nama_unit" : "Hektar, ha",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.517Z",
+		"updated_at" : "2022-12-26T05:24:09.517Z"
+	},
+	{
+		"id" : 9,
+		"nama_unit" : "Bilangan",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.517Z",
+		"updated_at" : "2022-12-26T05:24:09.517Z"
+	},
+	{
+		"id" : 10,
+		"nama_unit" : "Orang",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.523Z",
+		"updated_at" : "2022-12-26T05:24:09.523Z"
+	},
+	{
+		"id" : 11,
+		"nama_unit" : "Lain-lain",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.527Z",
+		"updated_at" : "2022-12-26T05:24:09.527Z"
+	},
+	{
+		"id" : 12,
+		"nama_unit" : "KM",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.527Z",
+		"updated_at" : "2022-12-26T05:24:09.527Z"
+	},
+	{
+		"id" : 13,
+		"nama_unit" : "LS",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.527Z",
+		"updated_at" : "2022-12-26T05:24:09.527Z"
+	},
+	{
+		"id" : 14,
+		"nama_unit" : "Sheet",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.527Z",
+		"updated_at" : "2022-12-26T05:24:09.527Z"
+	},
+	{
+		"id" : 15,
+		"nama_unit" : "Copy",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.527Z",
+		"updated_at" : "2022-12-26T05:24:09.527Z"
+	},
+	{
+		"id" : 16,
+		"nama_unit" : "Month",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.437Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.437Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-26T05:24:09.527Z",
+		"updated_at" : "2022-12-26T05:24:09.527Z"
+	}
+]}

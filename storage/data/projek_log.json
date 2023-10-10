@@ -1,0 +1,2613 @@
+{
+"projek_log": [
+	{
+		"id" : 1,
+		"projek_id" : 10129,
+		"user_id" : 10084,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-08T19:14:51.000Z",
+		"created_at" : "2023-01-08T19:14:51.580Z",
+		"updated_at" : "2023-01-08T19:14:51.580Z"
+	},
+	{
+		"id" : 2,
+		"projek_id" : 10129,
+		"user_id" : 10084,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-09T03:31:33.197Z",
+		"created_at" : "2023-01-08T19:31:33.210Z",
+		"updated_at" : "2023-01-08T19:31:33.210Z"
+	},
+	{
+		"id" : 3,
+		"projek_id" : 10129,
+		"user_id" : 10084,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-08T20:03:45.000Z",
+		"created_at" : "2023-01-08T20:03:45.297Z",
+		"updated_at" : "2023-01-08T20:03:45.297Z"
+	},
+	{
+		"id" : 4,
+		"projek_id" : 10129,
+		"user_id" : 10050,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-08T20:07:29.000Z",
+		"created_at" : "2023-01-08T20:07:29.363Z",
+		"updated_at" : "2023-01-08T20:07:29.363Z"
+	},
+	{
+		"id" : 5,
+		"projek_id" : 10129,
+		"user_id" : 10050,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-08T20:12:28.000Z",
+		"created_at" : "2023-01-08T20:12:28.540Z",
+		"updated_at" : "2023-01-08T20:12:28.540Z"
+	},
+	{
+		"id" : 6,
+		"projek_id" : 10129,
+		"user_id" : 10085,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-08T20:16:42.000Z",
+		"created_at" : "2023-01-08T20:16:42.753Z",
+		"updated_at" : "2023-01-08T20:16:42.753Z"
+	},
+	{
+		"id" : 7,
+		"projek_id" : 10129,
+		"user_id" : 10085,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-08T20:17:16.000Z",
+		"created_at" : "2023-01-08T20:17:16.947Z",
+		"updated_at" : "2023-01-08T20:17:16.947Z"
+	},
+	{
+		"id" : 8,
+		"projek_id" : 10129,
+		"user_id" : 10090,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-08T20:22:21.000Z",
+		"created_at" : "2023-01-08T20:22:21.597Z",
+		"updated_at" : "2023-01-08T20:22:21.597Z"
+	},
+	{
+		"id" : 9,
+		"projek_id" : 10129,
+		"user_id" : 10090,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-08T20:23:01.000Z",
+		"created_at" : "2023-01-08T20:23:01.913Z",
+		"updated_at" : "2023-01-08T20:23:01.913Z"
+	},
+	{
+		"id" : 10,
+		"projek_id" : 10129,
+		"user_id" : 10087,
+		"section_name" : "PERAKUAN_approve",
+		"Created_on" : "2023-01-08T20:24:41.000Z",
+		"created_at" : "2023-01-08T20:24:41.243Z",
+		"updated_at" : "2023-01-08T20:24:41.243Z"
+	},
+	{
+		"id" : 11,
+		"projek_id" : 10131,
+		"user_id" : 10050,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-08T22:04:26.000Z",
+		"created_at" : "2023-01-08T22:04:26.427Z",
+		"updated_at" : "2023-01-08T22:04:26.427Z"
+	},
+	{
+		"id" : 12,
+		"projek_id" : 10131,
+		"user_id" : 10050,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-09T06:05:34.620Z",
+		"created_at" : "2023-01-08T22:05:34.623Z",
+		"updated_at" : "2023-01-08T22:05:34.623Z"
+	},
+	{
+		"id" : 13,
+		"projek_id" : 10131,
+		"user_id" : 10050,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-09T06:06:59.447Z",
+		"created_at" : "2023-01-08T22:06:59.450Z",
+		"updated_at" : "2023-01-08T22:06:59.450Z"
+	},
+	{
+		"id" : 14,
+		"projek_id" : 10131,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-09T06:12:10.690Z",
+		"created_at" : "2023-01-08T22:12:10.697Z",
+		"updated_at" : "2023-01-08T22:12:10.697Z"
+	},
+	{
+		"id" : 15,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-08T23:47:00.000Z",
+		"created_at" : "2023-01-08T23:47:00.263Z",
+		"updated_at" : "2023-01-08T23:47:00.263Z"
+	},
+	{
+		"id" : 16,
+		"projek_id" : 10133,
+		"user_id" : 20253,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T01:13:18.000Z",
+		"created_at" : "2023-01-09T01:13:18.797Z",
+		"updated_at" : "2023-01-09T01:13:18.797Z"
+	},
+	{
+		"id" : 17,
+		"projek_id" : 10133,
+		"user_id" : 20253,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T01:18:32.000Z",
+		"created_at" : "2023-01-09T01:18:32.557Z",
+		"updated_at" : "2023-01-09T01:18:32.557Z"
+	},
+	{
+		"id" : 18,
+		"projek_id" : 10134,
+		"user_id" : 10051,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T01:29:46.000Z",
+		"created_at" : "2023-01-09T01:29:46.490Z",
+		"updated_at" : "2023-01-09T01:29:46.490Z"
+	},
+	{
+		"id" : 19,
+		"projek_id" : 10133,
+		"user_id" : 20253,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T01:31:17.000Z",
+		"created_at" : "2023-01-09T01:31:17.440Z",
+		"updated_at" : "2023-01-09T01:31:17.440Z"
+	},
+	{
+		"id" : 20,
+		"projek_id" : 10133,
+		"user_id" : 20253,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T01:40:34.000Z",
+		"created_at" : "2023-01-09T01:40:35.000Z",
+		"updated_at" : "2023-01-09T01:40:35.000Z"
+	},
+	{
+		"id" : 21,
+		"projek_id" : 10133,
+		"user_id" : 10050,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T01:43:11.000Z",
+		"created_at" : "2023-01-09T01:43:11.213Z",
+		"updated_at" : "2023-01-09T01:43:11.213Z"
+	},
+	{
+		"id" : 22,
+		"projek_id" : 10133,
+		"user_id" : 10050,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T01:44:11.000Z",
+		"created_at" : "2023-01-09T01:44:11.417Z",
+		"updated_at" : "2023-01-09T01:44:11.417Z"
+	},
+	{
+		"id" : 23,
+		"projek_id" : 10133,
+		"user_id" : 10085,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T02:12:16.000Z",
+		"created_at" : "2023-01-09T02:12:16.280Z",
+		"updated_at" : "2023-01-09T02:12:16.280Z"
+	},
+	{
+		"id" : 24,
+		"projek_id" : 10133,
+		"user_id" : 10085,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T02:12:58.000Z",
+		"created_at" : "2023-01-09T02:12:58.923Z",
+		"updated_at" : "2023-01-09T02:12:58.923Z"
+	},
+	{
+		"id" : 25,
+		"projek_id" : 10133,
+		"user_id" : 10090,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T02:16:04.000Z",
+		"created_at" : "2023-01-09T02:16:04.803Z",
+		"updated_at" : "2023-01-09T02:16:04.803Z"
+	},
+	{
+		"id" : 26,
+		"projek_id" : 10133,
+		"user_id" : 10090,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T02:18:24.000Z",
+		"created_at" : "2023-01-09T02:18:24.633Z",
+		"updated_at" : "2023-01-09T02:18:24.633Z"
+	},
+	{
+		"id" : 27,
+		"projek_id" : 10133,
+		"user_id" : 10087,
+		"section_name" : "PERAKUAN_Reject",
+		"Created_on" : "2023-01-09T02:20:32.000Z",
+		"created_at" : "2023-01-09T02:20:32.630Z",
+		"updated_at" : "2023-01-09T02:20:32.630Z"
+	},
+	{
+		"id" : 28,
+		"projek_id" : 10135,
+		"user_id" : 20252,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T04:35:44.000Z",
+		"created_at" : "2023-01-09T04:35:44.367Z",
+		"updated_at" : "2023-01-09T04:35:44.367Z"
+	},
+	{
+		"id" : 29,
+		"projek_id" : 10135,
+		"user_id" : 20252,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T04:43:32.000Z",
+		"created_at" : "2023-01-09T04:43:32.373Z",
+		"updated_at" : "2023-01-09T04:43:32.373Z"
+	},
+	{
+		"id" : 30,
+		"projek_id" : 10135,
+		"user_id" : 10050,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T04:45:51.000Z",
+		"created_at" : "2023-01-09T04:45:51.373Z",
+		"updated_at" : "2023-01-09T04:45:51.373Z"
+	},
+	{
+		"id" : 31,
+		"projek_id" : 10135,
+		"user_id" : 10050,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T04:51:01.000Z",
+		"created_at" : "2023-01-09T04:51:01.337Z",
+		"updated_at" : "2023-01-09T04:51:01.337Z"
+	},
+	{
+		"id" : 32,
+		"projek_id" : 10135,
+		"user_id" : 10085,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T04:52:05.000Z",
+		"created_at" : "2023-01-09T04:52:05.683Z",
+		"updated_at" : "2023-01-09T04:52:05.683Z"
+	},
+	{
+		"id" : 33,
+		"projek_id" : 10135,
+		"user_id" : 10085,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T04:52:59.000Z",
+		"created_at" : "2023-01-09T04:52:59.597Z",
+		"updated_at" : "2023-01-09T04:52:59.597Z"
+	},
+	{
+		"id" : 34,
+		"projek_id" : 10135,
+		"user_id" : 10090,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T05:23:17.000Z",
+		"created_at" : "2023-01-09T05:23:17.603Z",
+		"updated_at" : "2023-01-09T05:23:17.603Z"
+	},
+	{
+		"id" : 35,
+		"projek_id" : 10135,
+		"user_id" : 10090,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T05:24:16.000Z",
+		"created_at" : "2023-01-09T05:24:16.120Z",
+		"updated_at" : "2023-01-09T05:24:16.120Z"
+	},
+	{
+		"id" : 36,
+		"projek_id" : 10135,
+		"user_id" : 10087,
+		"section_name" : "PERAKUAN_approve",
+		"Created_on" : "2023-01-09T05:25:53.000Z",
+		"created_at" : "2023-01-09T05:25:53.343Z",
+		"updated_at" : "2023-01-09T05:25:53.343Z"
+	},
+	{
+		"id" : 37,
+		"projek_id" : 10135,
+		"user_id" : 10087,
+		"section_name" : "PERAKUAN_approve",
+		"Created_on" : "2023-01-09T05:27:21.000Z",
+		"created_at" : "2023-01-09T05:27:21.667Z",
+		"updated_at" : "2023-01-09T05:27:21.667Z"
+	},
+	{
+		"id" : 38,
+		"projek_id" : 10135,
+		"user_id" : 10087,
+		"section_name" : "PERAKUAN_approve",
+		"Created_on" : "2023-01-09T05:27:21.000Z",
+		"created_at" : "2023-01-09T05:27:21.727Z",
+		"updated_at" : "2023-01-09T05:27:21.727Z"
+	},
+	{
+		"id" : 39,
+		"projek_id" : 10136,
+		"user_id" : 20253,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T05:33:14.000Z",
+		"created_at" : "2023-01-09T05:33:14.883Z",
+		"updated_at" : "2023-01-09T05:33:14.883Z"
+	},
+	{
+		"id" : 40,
+		"projek_id" : 10136,
+		"user_id" : 20253,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T05:36:40.000Z",
+		"created_at" : "2023-01-09T05:36:40.817Z",
+		"updated_at" : "2023-01-09T05:36:40.817Z"
+	},
+	{
+		"id" : 41,
+		"projek_id" : 10136,
+		"user_id" : 10050,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T05:39:37.000Z",
+		"created_at" : "2023-01-09T05:39:37.097Z",
+		"updated_at" : "2023-01-09T05:39:37.097Z"
+	},
+	{
+		"id" : 42,
+		"projek_id" : 10136,
+		"user_id" : 10050,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T05:43:42.000Z",
+		"created_at" : "2023-01-09T05:43:42.583Z",
+		"updated_at" : "2023-01-09T05:43:42.583Z"
+	},
+	{
+		"id" : 43,
+		"projek_id" : 10136,
+		"user_id" : 10085,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T05:47:02.000Z",
+		"created_at" : "2023-01-09T05:47:02.913Z",
+		"updated_at" : "2023-01-09T05:47:02.913Z"
+	},
+	{
+		"id" : 44,
+		"projek_id" : 10136,
+		"user_id" : 10085,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T05:47:53.000Z",
+		"created_at" : "2023-01-09T05:47:53.643Z",
+		"updated_at" : "2023-01-09T05:47:53.643Z"
+	},
+	{
+		"id" : 45,
+		"projek_id" : 10136,
+		"user_id" : 10090,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T05:49:32.000Z",
+		"created_at" : "2023-01-09T05:49:32.957Z",
+		"updated_at" : "2023-01-09T05:49:32.957Z"
+	},
+	{
+		"id" : 46,
+		"projek_id" : 10136,
+		"user_id" : 10090,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T05:50:11.000Z",
+		"created_at" : "2023-01-09T05:50:11.830Z",
+		"updated_at" : "2023-01-09T05:50:11.830Z"
+	},
+	{
+		"id" : 47,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "PERAKUAN_approve",
+		"Created_on" : "2023-01-09T05:51:39.000Z",
+		"created_at" : "2023-01-09T05:51:39.197Z",
+		"updated_at" : "2023-01-09T05:51:39.197Z"
+	},
+	{
+		"id" : 48,
+		"projek_id" : 10137,
+		"user_id" : 10051,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T05:57:05.000Z",
+		"created_at" : "2023-01-09T05:57:05.747Z",
+		"updated_at" : "2023-01-09T05:57:05.747Z"
+	},
+	{
+		"id" : 49,
+		"projek_id" : 10137,
+		"user_id" : 10051,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T06:00:00.000Z",
+		"created_at" : "2023-01-09T06:00:00.733Z",
+		"updated_at" : "2023-01-09T06:00:00.733Z"
+	},
+	{
+		"id" : 50,
+		"projek_id" : 10137,
+		"user_id" : 10086,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T06:13:21.000Z",
+		"created_at" : "2023-01-09T06:13:21.987Z",
+		"updated_at" : "2023-01-09T06:13:21.987Z"
+	},
+	{
+		"id" : 51,
+		"projek_id" : 10137,
+		"user_id" : 10086,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T06:13:52.000Z",
+		"created_at" : "2023-01-09T06:13:52.423Z",
+		"updated_at" : "2023-01-09T06:13:52.423Z"
+	},
+	{
+		"id" : 52,
+		"projek_id" : 10137,
+		"user_id" : 10085,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T06:15:47.000Z",
+		"created_at" : "2023-01-09T06:15:47.650Z",
+		"updated_at" : "2023-01-09T06:15:47.650Z"
+	},
+	{
+		"id" : 53,
+		"projek_id" : 10137,
+		"user_id" : 10085,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T06:16:22.000Z",
+		"created_at" : "2023-01-09T06:16:22.710Z",
+		"updated_at" : "2023-01-09T06:16:22.710Z"
+	},
+	{
+		"id" : 54,
+		"projek_id" : 10137,
+		"user_id" : 10090,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T06:18:28.000Z",
+		"created_at" : "2023-01-09T06:18:28.953Z",
+		"updated_at" : "2023-01-09T06:18:28.953Z"
+	},
+	{
+		"id" : 55,
+		"projek_id" : 10137,
+		"user_id" : 10090,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T06:19:56.000Z",
+		"created_at" : "2023-01-09T06:19:56.290Z",
+		"updated_at" : "2023-01-09T06:19:56.290Z"
+	},
+	{
+		"id" : 56,
+		"projek_id" : 10137,
+		"user_id" : 10087,
+		"section_name" : "PERAKUAN_approve",
+		"Created_on" : "2023-01-09T06:22:26.000Z",
+		"created_at" : "2023-01-09T06:22:26.840Z",
+		"updated_at" : "2023-01-09T06:22:26.840Z"
+	},
+	{
+		"id" : 57,
+		"projek_id" : 10138,
+		"user_id" : 1,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T06:28:46.000Z",
+		"created_at" : "2023-01-09T06:28:46.713Z",
+		"updated_at" : "2023-01-09T06:28:46.713Z"
+	},
+	{
+		"id" : 58,
+		"projek_id" : 10139,
+		"user_id" : 10084,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T17:16:03.000Z",
+		"created_at" : "2023-01-09T17:16:03.553Z",
+		"updated_at" : "2023-01-09T17:16:03.553Z"
+	},
+	{
+		"id" : 59,
+		"projek_id" : 10139,
+		"user_id" : 10084,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-10T01:17:02.823Z",
+		"created_at" : "2023-01-09T17:17:02.833Z",
+		"updated_at" : "2023-01-09T17:17:02.833Z"
+	},
+	{
+		"id" : 60,
+		"projek_id" : 10139,
+		"user_id" : 10084,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T17:19:30.000Z",
+		"created_at" : "2023-01-09T17:19:30.397Z",
+		"updated_at" : "2023-01-09T17:19:30.397Z"
+	},
+	{
+		"id" : 61,
+		"projek_id" : 10138,
+		"user_id" : 1,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-10T01:40:39.330Z",
+		"created_at" : "2023-01-09T17:40:39.330Z",
+		"updated_at" : "2023-01-09T17:40:39.330Z"
+	},
+	{
+		"id" : 62,
+		"projek_id" : 10138,
+		"user_id" : 1,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-10T01:41:39.340Z",
+		"created_at" : "2023-01-09T17:41:39.343Z",
+		"updated_at" : "2023-01-09T17:41:39.343Z"
+	},
+	{
+		"id" : 63,
+		"projek_id" : 10138,
+		"user_id" : 1,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-10T01:42:07.483Z",
+		"created_at" : "2023-01-09T17:42:07.483Z",
+		"updated_at" : "2023-01-09T17:42:07.483Z"
+	},
+	{
+		"id" : 64,
+		"projek_id" : 10138,
+		"user_id" : 1,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-10T01:42:40.247Z",
+		"created_at" : "2023-01-09T17:42:40.253Z",
+		"updated_at" : "2023-01-09T17:42:40.253Z"
+	},
+	{
+		"id" : 65,
+		"projek_id" : 10139,
+		"user_id" : 10050,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-09T18:24:19.000Z",
+		"created_at" : "2023-01-09T18:24:19.963Z",
+		"updated_at" : "2023-01-09T18:24:19.963Z"
+	},
+	{
+		"id" : 66,
+		"projek_id" : 10139,
+		"user_id" : 10050,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T18:25:21.000Z",
+		"created_at" : "2023-01-09T18:25:21.930Z",
+		"updated_at" : "2023-01-09T18:25:21.930Z"
+	},
+	{
+		"id" : 67,
+		"projek_id" : 10140,
+		"user_id" : 10051,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T18:41:17.000Z",
+		"created_at" : "2023-01-09T18:41:17.160Z",
+		"updated_at" : "2023-01-09T18:41:17.160Z"
+	},
+	{
+		"id" : 68,
+		"projek_id" : 10140,
+		"user_id" : 10051,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-10T02:43:35.690Z",
+		"created_at" : "2023-01-09T18:43:35.693Z",
+		"updated_at" : "2023-01-09T18:43:35.693Z"
+	},
+	{
+		"id" : 69,
+		"projek_id" : 10140,
+		"user_id" : 10051,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-10T02:44:33.707Z",
+		"created_at" : "2023-01-09T18:44:33.720Z",
+		"updated_at" : "2023-01-09T18:44:33.720Z"
+	},
+	{
+		"id" : 70,
+		"projek_id" : 10140,
+		"user_id" : 10051,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-10T02:48:39.083Z",
+		"created_at" : "2023-01-09T18:48:39.093Z",
+		"updated_at" : "2023-01-09T18:48:39.093Z"
+	},
+	{
+		"id" : 71,
+		"projek_id" : 10140,
+		"user_id" : 10051,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-10T02:55:22.867Z",
+		"created_at" : "2023-01-09T18:55:22.880Z",
+		"updated_at" : "2023-01-09T18:55:22.880Z"
+	},
+	{
+		"id" : 72,
+		"projek_id" : 10140,
+		"user_id" : 10051,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-10T02:57:12.737Z",
+		"created_at" : "2023-01-09T18:57:12.747Z",
+		"updated_at" : "2023-01-09T18:57:12.747Z"
+	},
+	{
+		"id" : 73,
+		"projek_id" : 10140,
+		"user_id" : 10051,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-10T03:02:27.167Z",
+		"created_at" : "2023-01-09T19:02:27.180Z",
+		"updated_at" : "2023-01-09T19:02:27.180Z"
+	},
+	{
+		"id" : 74,
+		"projek_id" : 10140,
+		"user_id" : 10051,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-10T03:02:50.970Z",
+		"created_at" : "2023-01-09T19:02:50.973Z",
+		"updated_at" : "2023-01-09T19:02:50.973Z"
+	},
+	{
+		"id" : 75,
+		"projek_id" : 10140,
+		"user_id" : 10051,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-10T03:04:08.417Z",
+		"created_at" : "2023-01-09T19:04:08.430Z",
+		"updated_at" : "2023-01-09T19:04:08.430Z"
+	},
+	{
+		"id" : 76,
+		"projek_id" : 10140,
+		"user_id" : 10051,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T19:07:40.000Z",
+		"created_at" : "2023-01-09T19:07:40.583Z",
+		"updated_at" : "2023-01-09T19:07:40.583Z"
+	},
+	{
+		"id" : 77,
+		"projek_id" : 10141,
+		"user_id" : 10051,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T19:11:20.000Z",
+		"created_at" : "2023-01-09T19:11:20.267Z",
+		"updated_at" : "2023-01-09T19:11:20.267Z"
+	},
+	{
+		"id" : 78,
+		"projek_id" : 10141,
+		"user_id" : 10051,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-09T19:13:24.000Z",
+		"created_at" : "2023-01-09T19:13:24.657Z",
+		"updated_at" : "2023-01-09T19:13:24.657Z"
+	},
+	{
+		"id" : 79,
+		"projek_id" : 10142,
+		"user_id" : 10051,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T19:23:05.000Z",
+		"created_at" : "2023-01-09T19:23:05.553Z",
+		"updated_at" : "2023-01-09T19:23:05.553Z"
+	},
+	{
+		"id" : 80,
+		"projek_id" : 10143,
+		"user_id" : 10087,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T19:30:58.000Z",
+		"created_at" : "2023-01-09T19:30:58.077Z",
+		"updated_at" : "2023-01-09T19:30:58.077Z"
+	},
+	{
+		"id" : 81,
+		"projek_id" : 10144,
+		"user_id" : 10087,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T19:34:48.000Z",
+		"created_at" : "2023-01-09T19:34:48.000Z",
+		"updated_at" : "2023-01-09T19:34:48.000Z"
+	},
+	{
+		"id" : 82,
+		"projek_id" : 10145,
+		"user_id" : 10085,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-09T23:47:24.000Z",
+		"created_at" : "2023-01-09T23:47:24.607Z",
+		"updated_at" : "2023-01-09T23:47:24.607Z"
+	},
+	{
+		"id" : 83,
+		"projek_id" : 10145,
+		"user_id" : 10085,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-10T08:10:10.150Z",
+		"created_at" : "2023-01-10T00:10:10.147Z",
+		"updated_at" : "2023-01-10T00:10:10.147Z"
+	},
+	{
+		"id" : 84,
+		"projek_id" : 10145,
+		"user_id" : 10085,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-10T08:40:03.723Z",
+		"created_at" : "2023-01-10T00:40:03.733Z",
+		"updated_at" : "2023-01-10T00:40:03.733Z"
+	},
+	{
+		"id" : 85,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-10T08:59:25.953Z",
+		"created_at" : "2023-01-10T00:59:25.963Z",
+		"updated_at" : "2023-01-10T00:59:25.963Z"
+	},
+	{
+		"id" : 86,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-10T09:01:13.453Z",
+		"created_at" : "2023-01-10T01:01:13.457Z",
+		"updated_at" : "2023-01-10T01:01:13.457Z"
+	},
+	{
+		"id" : 87,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-10T09:03:14.030Z",
+		"created_at" : "2023-01-10T01:03:14.027Z",
+		"updated_at" : "2023-01-10T01:03:14.027Z"
+	},
+	{
+		"id" : 88,
+		"projek_id" : 10145,
+		"user_id" : 10085,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-10T01:23:31.000Z",
+		"created_at" : "2023-01-10T01:23:31.753Z",
+		"updated_at" : "2023-01-10T01:23:31.753Z"
+	},
+	{
+		"id" : 89,
+		"projek_id" : 10131,
+		"user_id" : 10050,
+		"section_name" : "Vae",
+		"Created_on" : "2023-01-10T11:55:20.893Z",
+		"created_at" : "2023-01-10T03:55:20.890Z",
+		"updated_at" : "2023-01-10T03:55:20.890Z"
+	},
+	{
+		"id" : 90,
+		"projek_id" : 10146,
+		"user_id" : 10031,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-10T17:46:22.000Z",
+		"created_at" : "2023-01-10T17:46:22.053Z",
+		"updated_at" : "2023-01-10T17:46:22.053Z"
+	},
+	{
+		"id" : 91,
+		"projek_id" : 10146,
+		"user_id" : 10031,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-11T01:55:11.470Z",
+		"created_at" : "2023-01-10T17:55:11.483Z",
+		"updated_at" : "2023-01-10T17:55:11.483Z"
+	},
+	{
+		"id" : 92,
+		"projek_id" : 10147,
+		"user_id" : 10051,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-10T17:58:06.000Z",
+		"created_at" : "2023-01-10T17:58:06.960Z",
+		"updated_at" : "2023-01-10T17:58:06.960Z"
+	},
+	{
+		"id" : 93,
+		"projek_id" : 10146,
+		"user_id" : 10031,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-11T02:00:35.527Z",
+		"created_at" : "2023-01-10T18:00:35.530Z",
+		"updated_at" : "2023-01-10T18:00:35.530Z"
+	},
+	{
+		"id" : 94,
+		"projek_id" : 10146,
+		"user_id" : 10031,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-11T02:01:24.047Z",
+		"created_at" : "2023-01-10T18:01:24.060Z",
+		"updated_at" : "2023-01-10T18:01:24.060Z"
+	},
+	{
+		"id" : 95,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-10T18:04:17.000Z",
+		"created_at" : "2023-01-10T18:04:17.310Z",
+		"updated_at" : "2023-01-10T18:04:17.310Z"
+	},
+	{
+		"id" : 96,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-11T02:04:51.250Z",
+		"created_at" : "2023-01-10T18:04:51.257Z",
+		"updated_at" : "2023-01-10T18:04:51.257Z"
+	},
+	{
+		"id" : 97,
+		"projek_id" : 10149,
+		"user_id" : 20252,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-10T18:06:59.000Z",
+		"created_at" : "2023-01-10T18:06:59.907Z",
+		"updated_at" : "2023-01-10T18:06:59.907Z"
+	},
+	{
+		"id" : 98,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-11T02:08:16.763Z",
+		"created_at" : "2023-01-10T18:08:16.770Z",
+		"updated_at" : "2023-01-10T18:08:16.770Z"
+	},
+	{
+		"id" : 99,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-11T02:08:29.220Z",
+		"created_at" : "2023-01-10T18:08:29.220Z",
+		"updated_at" : "2023-01-10T18:08:29.220Z"
+	},
+	{
+		"id" : 100,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-11T02:08:59.403Z",
+		"created_at" : "2023-01-10T18:08:59.407Z",
+		"updated_at" : "2023-01-10T18:08:59.407Z"
+	},
+	{
+		"id" : 101,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-11T02:09:06.117Z",
+		"created_at" : "2023-01-10T18:09:06.120Z",
+		"updated_at" : "2023-01-10T18:09:06.120Z"
+	},
+	{
+		"id" : 102,
+		"projek_id" : 10149,
+		"user_id" : 20252,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-11T02:22:40.500Z",
+		"created_at" : "2023-01-10T18:22:40.503Z",
+		"updated_at" : "2023-01-10T18:22:40.503Z"
+	},
+	{
+		"id" : 103,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-11T03:55:15.100Z",
+		"created_at" : "2023-01-10T19:55:15.100Z",
+		"updated_at" : "2023-01-10T19:55:15.100Z"
+	},
+	{
+		"id" : 104,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-11T04:00:01.503Z",
+		"created_at" : "2023-01-10T20:00:01.507Z",
+		"updated_at" : "2023-01-10T20:00:01.507Z"
+	},
+	{
+		"id" : 105,
+		"projek_id" : 10149,
+		"user_id" : 20252,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-11T04:00:53.323Z",
+		"created_at" : "2023-01-10T20:00:53.340Z",
+		"updated_at" : "2023-01-10T20:00:53.340Z"
+	},
+	{
+		"id" : 106,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-11T04:03:59.380Z",
+		"created_at" : "2023-01-10T20:03:59.397Z",
+		"updated_at" : "2023-01-10T20:03:59.397Z"
+	},
+	{
+		"id" : 107,
+		"projek_id" : 10149,
+		"user_id" : 20252,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-11T04:04:19.550Z",
+		"created_at" : "2023-01-10T20:04:19.560Z",
+		"updated_at" : "2023-01-10T20:04:19.560Z"
+	},
+	{
+		"id" : 108,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "Vae",
+		"Created_on" : "2023-01-11T04:11:18.823Z",
+		"created_at" : "2023-01-10T20:11:18.830Z",
+		"updated_at" : "2023-01-10T20:11:18.830Z"
+	},
+	{
+		"id" : 109,
+		"projek_id" : 10149,
+		"user_id" : 20252,
+		"section_name" : "Vae",
+		"Created_on" : "2023-01-11T04:11:37.833Z",
+		"created_at" : "2023-01-10T20:11:37.837Z",
+		"updated_at" : "2023-01-10T20:11:37.837Z"
+	},
+	{
+		"id" : 110,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "Dokumen",
+		"Created_on" : "2023-01-11T04:12:00.253Z",
+		"created_at" : "2023-01-10T20:12:00.247Z",
+		"updated_at" : "2023-01-10T20:12:00.247Z"
+	},
+	{
+		"id" : 111,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-10T20:18:02.000Z",
+		"created_at" : "2023-01-10T20:18:02.830Z",
+		"updated_at" : "2023-01-10T20:18:02.830Z"
+	},
+	{
+		"id" : 112,
+		"projek_id" : 10149,
+		"user_id" : 20252,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-10T20:18:50.000Z",
+		"created_at" : "2023-01-10T20:18:50.030Z",
+		"updated_at" : "2023-01-10T20:18:50.030Z"
+	},
+	{
+		"id" : 113,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-11T12:43:32.900Z",
+		"created_at" : "2023-01-11T04:43:32.900Z",
+		"updated_at" : "2023-01-11T04:43:32.900Z"
+	},
+	{
+		"id" : 114,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-11T12:43:50.833Z",
+		"created_at" : "2023-01-11T04:43:50.840Z",
+		"updated_at" : "2023-01-11T04:43:50.840Z"
+	},
+	{
+		"id" : 115,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-11T12:44:13.900Z",
+		"created_at" : "2023-01-11T04:44:13.917Z",
+		"updated_at" : "2023-01-11T04:44:13.917Z"
+	},
+	{
+		"id" : 116,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-11T13:19:47.417Z",
+		"created_at" : "2023-01-11T05:19:47.420Z",
+		"updated_at" : "2023-01-11T05:19:47.420Z"
+	},
+	{
+		"id" : 117,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-11T13:19:59.657Z",
+		"created_at" : "2023-01-11T05:19:59.660Z",
+		"updated_at" : "2023-01-11T05:19:59.660Z"
+	},
+	{
+		"id" : 118,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-11T13:22:42.570Z",
+		"created_at" : "2023-01-11T05:22:42.573Z",
+		"updated_at" : "2023-01-11T05:22:42.573Z"
+	},
+	{
+		"id" : 119,
+		"projek_id" : 10150,
+		"user_id" : 10084,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-11T20:04:19.000Z",
+		"created_at" : "2023-01-11T20:04:19.913Z",
+		"updated_at" : "2023-01-11T20:04:19.913Z"
+	},
+	{
+		"id" : 120,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-11T21:03:26.000Z",
+		"created_at" : "2023-01-11T21:03:26.910Z",
+		"updated_at" : "2023-01-11T21:03:26.910Z"
+	},
+	{
+		"id" : 121,
+		"projek_id" : 10152,
+		"user_id" : 10084,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-11T22:35:37.000Z",
+		"created_at" : "2023-01-11T22:35:37.820Z",
+		"updated_at" : "2023-01-11T22:35:37.820Z"
+	},
+	{
+		"id" : 122,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-12T07:04:08.263Z",
+		"created_at" : "2023-01-11T23:04:08.263Z",
+		"updated_at" : "2023-01-11T23:04:08.263Z"
+	},
+	{
+		"id" : 123,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-12T07:17:47.383Z",
+		"created_at" : "2023-01-11T23:17:47.400Z",
+		"updated_at" : "2023-01-11T23:17:47.400Z"
+	},
+	{
+		"id" : 124,
+		"projek_id" : 10153,
+		"user_id" : 10051,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-11T23:35:28.000Z",
+		"created_at" : "2023-01-11T23:35:28.847Z",
+		"updated_at" : "2023-01-11T23:35:28.847Z"
+	},
+	{
+		"id" : 125,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:40:19.233Z",
+		"created_at" : "2023-01-12T00:40:19.233Z",
+		"updated_at" : "2023-01-12T00:40:19.233Z"
+	},
+	{
+		"id" : 126,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:40:22.580Z",
+		"created_at" : "2023-01-12T00:40:22.567Z",
+		"updated_at" : "2023-01-12T00:40:22.567Z"
+	},
+	{
+		"id" : 127,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:40:24.400Z",
+		"created_at" : "2023-01-12T00:40:24.417Z",
+		"updated_at" : "2023-01-12T00:40:24.417Z"
+	},
+	{
+		"id" : 128,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:40:27.180Z",
+		"created_at" : "2023-01-12T00:40:27.180Z",
+		"updated_at" : "2023-01-12T00:40:27.180Z"
+	},
+	{
+		"id" : 129,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:40:32.150Z",
+		"created_at" : "2023-01-12T00:40:32.150Z",
+		"updated_at" : "2023-01-12T00:40:32.150Z"
+	},
+	{
+		"id" : 130,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:41:42.850Z",
+		"created_at" : "2023-01-12T00:41:42.850Z",
+		"updated_at" : "2023-01-12T00:41:42.850Z"
+	},
+	{
+		"id" : 131,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:41:46.487Z",
+		"created_at" : "2023-01-12T00:41:46.480Z",
+		"updated_at" : "2023-01-12T00:41:46.480Z"
+	},
+	{
+		"id" : 132,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:41:46.490Z",
+		"created_at" : "2023-01-12T00:41:46.480Z",
+		"updated_at" : "2023-01-12T00:41:46.480Z"
+	},
+	{
+		"id" : 133,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:41:47.413Z",
+		"created_at" : "2023-01-12T00:41:47.413Z",
+		"updated_at" : "2023-01-12T00:41:47.413Z"
+	},
+	{
+		"id" : 134,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:41:49.003Z",
+		"created_at" : "2023-01-12T00:41:49.003Z",
+		"updated_at" : "2023-01-12T00:41:49.003Z"
+	},
+	{
+		"id" : 135,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:41:50.020Z",
+		"created_at" : "2023-01-12T00:41:50.013Z",
+		"updated_at" : "2023-01-12T00:41:50.013Z"
+	},
+	{
+		"id" : 136,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:41:50.243Z",
+		"created_at" : "2023-01-12T00:41:50.247Z",
+		"updated_at" : "2023-01-12T00:41:50.247Z"
+	},
+	{
+		"id" : 137,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:42:30.960Z",
+		"created_at" : "2023-01-12T00:42:30.967Z",
+		"updated_at" : "2023-01-12T00:42:30.967Z"
+	},
+	{
+		"id" : 138,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:42:33.313Z",
+		"created_at" : "2023-01-12T00:42:33.173Z",
+		"updated_at" : "2023-01-12T00:42:33.173Z"
+	},
+	{
+		"id" : 139,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:42:33.947Z",
+		"created_at" : "2023-01-12T00:42:33.950Z",
+		"updated_at" : "2023-01-12T00:42:33.950Z"
+	},
+	{
+		"id" : 140,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:42:51.723Z",
+		"created_at" : "2023-01-12T00:42:51.727Z",
+		"updated_at" : "2023-01-12T00:42:51.727Z"
+	},
+	{
+		"id" : 141,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:42:53.767Z",
+		"created_at" : "2023-01-12T00:42:53.757Z",
+		"updated_at" : "2023-01-12T00:42:53.757Z"
+	},
+	{
+		"id" : 142,
+		"projek_id" : 10136,
+		"user_id" : 10087,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:42:54.060Z",
+		"created_at" : "2023-01-12T00:42:54.063Z",
+		"updated_at" : "2023-01-12T00:42:54.063Z"
+	},
+	{
+		"id" : 143,
+		"projek_id" : 10154,
+		"user_id" : 20264,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T00:52:29.000Z",
+		"created_at" : "2023-01-12T00:52:29.607Z",
+		"updated_at" : "2023-01-12T00:52:29.607Z"
+	},
+	{
+		"id" : 144,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T08:54:30.707Z",
+		"created_at" : "2023-01-12T00:54:30.717Z",
+		"updated_at" : "2023-01-12T00:54:30.717Z"
+	},
+	{
+		"id" : 145,
+		"projek_id" : 10155,
+		"user_id" : 20264,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T00:59:38.000Z",
+		"created_at" : "2023-01-12T00:59:38.467Z",
+		"updated_at" : "2023-01-12T00:59:38.467Z"
+	},
+	{
+		"id" : 146,
+		"projek_id" : 10155,
+		"user_id" : 20264,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-12T09:00:34.520Z",
+		"created_at" : "2023-01-12T01:00:34.530Z",
+		"updated_at" : "2023-01-12T01:00:34.530Z"
+	},
+	{
+		"id" : 147,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T09:26:37.030Z",
+		"created_at" : "2023-01-12T01:26:37.030Z",
+		"updated_at" : "2023-01-12T01:26:37.030Z"
+	},
+	{
+		"id" : 148,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T09:26:58.660Z",
+		"created_at" : "2023-01-12T01:26:58.663Z",
+		"updated_at" : "2023-01-12T01:26:58.663Z"
+	},
+	{
+		"id" : 149,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-12T09:46:58.183Z",
+		"created_at" : "2023-01-12T01:46:58.183Z",
+		"updated_at" : "2023-01-12T01:46:58.183Z"
+	},
+	{
+		"id" : 150,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-12T09:50:20.427Z",
+		"created_at" : "2023-01-12T01:50:20.440Z",
+		"updated_at" : "2023-01-12T01:50:20.440Z"
+	},
+	{
+		"id" : 151,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T04:20:22.000Z",
+		"created_at" : "2023-01-12T04:20:22.740Z",
+		"updated_at" : "2023-01-12T04:20:22.740Z"
+	},
+	{
+		"id" : 152,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-12T13:36:35.120Z",
+		"created_at" : "2023-01-12T05:36:35.137Z",
+		"updated_at" : "2023-01-12T05:36:35.137Z"
+	},
+	{
+		"id" : 153,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T06:56:26.000Z",
+		"created_at" : "2023-01-12T06:56:26.060Z",
+		"updated_at" : "2023-01-12T06:56:26.060Z"
+	},
+	{
+		"id" : 154,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-12T15:05:12.360Z",
+		"created_at" : "2023-01-12T07:05:12.363Z",
+		"updated_at" : "2023-01-12T07:05:12.363Z"
+	},
+	{
+		"id" : 155,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-12T15:31:06.840Z",
+		"created_at" : "2023-01-12T07:31:06.840Z",
+		"updated_at" : "2023-01-12T07:31:06.840Z"
+	},
+	{
+		"id" : 156,
+		"projek_id" : 10158,
+		"user_id" : 7,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T11:02:51.000Z",
+		"created_at" : "2023-01-12T11:02:51.390Z",
+		"updated_at" : "2023-01-12T11:02:51.390Z"
+	},
+	{
+		"id" : 157,
+		"projek_id" : 10158,
+		"user_id" : 7,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-12T19:03:31.570Z",
+		"created_at" : "2023-01-12T11:03:31.573Z",
+		"updated_at" : "2023-01-12T11:03:31.573Z"
+	},
+	{
+		"id" : 158,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-13T01:34:16.547Z",
+		"created_at" : "2023-01-12T17:34:16.547Z",
+		"updated_at" : "2023-01-12T17:34:16.547Z"
+	},
+	{
+		"id" : 159,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-13T01:34:32.210Z",
+		"created_at" : "2023-01-12T17:34:32.217Z",
+		"updated_at" : "2023-01-12T17:34:32.217Z"
+	},
+	{
+		"id" : 160,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-13T01:34:39.660Z",
+		"created_at" : "2023-01-12T17:34:39.660Z",
+		"updated_at" : "2023-01-12T17:34:39.660Z"
+	},
+	{
+		"id" : 161,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-13T01:53:07.193Z",
+		"created_at" : "2023-01-12T17:53:07.207Z",
+		"updated_at" : "2023-01-12T17:53:07.207Z"
+	},
+	{
+		"id" : 162,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-13T02:03:46.633Z",
+		"created_at" : "2023-01-12T18:03:46.650Z",
+		"updated_at" : "2023-01-12T18:03:46.650Z"
+	},
+	{
+		"id" : 163,
+		"projek_id" : 10159,
+		"user_id" : 10084,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T18:10:15.000Z",
+		"created_at" : "2023-01-12T18:10:15.777Z",
+		"updated_at" : "2023-01-12T18:10:15.777Z"
+	},
+	{
+		"id" : 164,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-13T02:37:09.533Z",
+		"created_at" : "2023-01-12T18:37:09.547Z",
+		"updated_at" : "2023-01-12T18:37:09.547Z"
+	},
+	{
+		"id" : 165,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-13T02:43:40.063Z",
+		"created_at" : "2023-01-12T18:43:40.067Z",
+		"updated_at" : "2023-01-12T18:43:40.067Z"
+	},
+	{
+		"id" : 166,
+		"projek_id" : 10138,
+		"user_id" : 1,
+		"section_name" : "Dokumen",
+		"Created_on" : "2023-01-13T02:57:38.863Z",
+		"created_at" : "2023-01-12T18:57:38.853Z",
+		"updated_at" : "2023-01-12T18:57:38.853Z"
+	},
+	{
+		"id" : 167,
+		"projek_id" : 10138,
+		"user_id" : 1,
+		"section_name" : "Dokumen",
+		"Created_on" : "2023-01-13T02:57:51.637Z",
+		"created_at" : "2023-01-12T18:57:51.623Z",
+		"updated_at" : "2023-01-12T18:57:51.623Z"
+	},
+	{
+		"id" : 168,
+		"projek_id" : 10138,
+		"user_id" : 1,
+		"section_name" : "Dokumen",
+		"Created_on" : "2023-01-13T02:58:38.287Z",
+		"created_at" : "2023-01-12T18:58:38.267Z",
+		"updated_at" : "2023-01-12T18:58:38.267Z"
+	},
+	{
+		"id" : 169,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-13T03:05:20.770Z",
+		"created_at" : "2023-01-12T19:05:20.770Z",
+		"updated_at" : "2023-01-12T19:05:20.770Z"
+	},
+	{
+		"id" : 170,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-13T03:06:11.353Z",
+		"created_at" : "2023-01-12T19:06:11.357Z",
+		"updated_at" : "2023-01-12T19:06:11.357Z"
+	},
+	{
+		"id" : 171,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "Dokumen",
+		"Created_on" : "2023-01-13T03:09:49.600Z",
+		"created_at" : "2023-01-12T19:09:49.603Z",
+		"updated_at" : "2023-01-12T19:09:49.603Z"
+	},
+	{
+		"id" : 172,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "Vae",
+		"Created_on" : "2023-01-13T03:16:00.407Z",
+		"created_at" : "2023-01-12T19:16:00.417Z",
+		"updated_at" : "2023-01-12T19:16:00.417Z"
+	},
+	{
+		"id" : 173,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "Vae",
+		"Created_on" : "2023-01-13T03:16:47.843Z",
+		"created_at" : "2023-01-12T19:16:47.857Z",
+		"updated_at" : "2023-01-12T19:16:47.857Z"
+	},
+	{
+		"id" : 174,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-13T03:30:24.430Z",
+		"created_at" : "2023-01-12T19:30:24.430Z",
+		"updated_at" : "2023-01-12T19:30:24.430Z"
+	},
+	{
+		"id" : 175,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-13T03:31:18.727Z",
+		"created_at" : "2023-01-12T19:31:18.730Z",
+		"updated_at" : "2023-01-12T19:31:18.730Z"
+	},
+	{
+		"id" : 176,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-13T03:35:04.553Z",
+		"created_at" : "2023-01-12T19:35:04.553Z",
+		"updated_at" : "2023-01-12T19:35:04.553Z"
+	},
+	{
+		"id" : 177,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-13T03:35:32.340Z",
+		"created_at" : "2023-01-12T19:35:32.343Z",
+		"updated_at" : "2023-01-12T19:35:32.343Z"
+	},
+	{
+		"id" : 178,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-13T03:44:48.480Z",
+		"created_at" : "2023-01-12T19:44:48.483Z",
+		"updated_at" : "2023-01-12T19:44:48.483Z"
+	},
+	{
+		"id" : 179,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-12T20:05:38.000Z",
+		"created_at" : "2023-01-12T20:05:38.603Z",
+		"updated_at" : "2023-01-12T20:05:38.603Z"
+	},
+	{
+		"id" : 180,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-12T20:06:20.000Z",
+		"created_at" : "2023-01-12T20:06:20.740Z",
+		"updated_at" : "2023-01-12T20:06:20.740Z"
+	},
+	{
+		"id" : 181,
+		"projek_id" : 10151,
+		"user_id" : 10050,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-12T20:07:18.000Z",
+		"created_at" : "2023-01-12T20:07:18.530Z",
+		"updated_at" : "2023-01-12T20:07:18.530Z"
+	},
+	{
+		"id" : 182,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "Dokumen",
+		"Created_on" : "2023-01-13T04:23:09.333Z",
+		"created_at" : "2023-01-12T20:23:09.337Z",
+		"updated_at" : "2023-01-12T20:23:09.337Z"
+	},
+	{
+		"id" : 183,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-13T04:28:25.190Z",
+		"created_at" : "2023-01-12T20:28:25.193Z",
+		"updated_at" : "2023-01-12T20:28:25.193Z"
+	},
+	{
+		"id" : 184,
+		"projek_id" : 10160,
+		"user_id" : 20265,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T20:49:21.000Z",
+		"created_at" : "2023-01-12T20:49:21.967Z",
+		"updated_at" : "2023-01-12T20:49:21.967Z"
+	},
+	{
+		"id" : 185,
+		"projek_id" : 10151,
+		"user_id" : 20266,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-12T22:25:40.000Z",
+		"created_at" : "2023-01-12T22:25:40.253Z",
+		"updated_at" : "2023-01-12T22:25:40.253Z"
+	},
+	{
+		"id" : 186,
+		"projek_id" : 10151,
+		"user_id" : 20266,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-12T22:28:07.000Z",
+		"created_at" : "2023-01-12T22:28:07.243Z",
+		"updated_at" : "2023-01-12T22:28:07.243Z"
+	},
+	{
+		"id" : 187,
+		"projek_id" : 10151,
+		"user_id" : 20266,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-12T22:28:32.000Z",
+		"created_at" : "2023-01-12T22:28:32.720Z",
+		"updated_at" : "2023-01-12T22:28:32.720Z"
+	},
+	{
+		"id" : 188,
+		"projek_id" : 10151,
+		"user_id" : 20266,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-12T22:29:07.000Z",
+		"created_at" : "2023-01-12T22:29:07.960Z",
+		"updated_at" : "2023-01-12T22:29:07.960Z"
+	},
+	{
+		"id" : 189,
+		"projek_id" : 10151,
+		"user_id" : 10087,
+		"section_name" : "PERAKUAN_approve",
+		"Created_on" : "2023-01-12T22:30:51.000Z",
+		"created_at" : "2023-01-12T22:30:51.540Z",
+		"updated_at" : "2023-01-12T22:30:51.540Z"
+	},
+	{
+		"id" : 190,
+		"projek_id" : 10161,
+		"user_id" : 10087,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T22:50:52.000Z",
+		"created_at" : "2023-01-12T22:50:52.193Z",
+		"updated_at" : "2023-01-12T22:50:52.193Z"
+	},
+	{
+		"id" : 191,
+		"projek_id" : 10161,
+		"user_id" : 10087,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-13T06:54:12.397Z",
+		"created_at" : "2023-01-12T22:54:12.397Z",
+		"updated_at" : "2023-01-12T22:54:12.397Z"
+	},
+	{
+		"id" : 192,
+		"projek_id" : 10170,
+		"user_id" : 10087,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T23:13:08.000Z",
+		"created_at" : "2023-01-12T23:13:08.450Z",
+		"updated_at" : "2023-01-12T23:13:08.450Z"
+	},
+	{
+		"id" : 193,
+		"projek_id" : 10172,
+		"user_id" : 10087,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T23:19:55.000Z",
+		"created_at" : "2023-01-12T23:19:55.383Z",
+		"updated_at" : "2023-01-12T23:19:55.383Z"
+	},
+	{
+		"id" : 194,
+		"projek_id" : 10173,
+		"user_id" : 10087,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T23:23:02.000Z",
+		"created_at" : "2023-01-12T23:23:02.433Z",
+		"updated_at" : "2023-01-12T23:23:02.433Z"
+	},
+	{
+		"id" : 195,
+		"projek_id" : 10177,
+		"user_id" : 10087,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-12T23:38:02.000Z",
+		"created_at" : "2023-01-12T23:38:02.803Z",
+		"updated_at" : "2023-01-12T23:38:02.803Z"
+	},
+	{
+		"id" : 196,
+		"projek_id" : 10177,
+		"user_id" : 10087,
+		"section_name" : "PERAKUAN_approve",
+		"Created_on" : "2023-01-12T23:39:00.000Z",
+		"created_at" : "2023-01-12T23:39:00.823Z",
+		"updated_at" : "2023-01-12T23:39:00.823Z"
+	},
+	{
+		"id" : 197,
+		"projek_id" : 10177,
+		"user_id" : 10087,
+		"section_name" : "PERAKUAN_approve",
+		"Created_on" : "2023-01-12T23:44:39.000Z",
+		"created_at" : "2023-01-12T23:44:39.737Z",
+		"updated_at" : "2023-01-12T23:44:39.737Z"
+	},
+	{
+		"id" : 198,
+		"projek_id" : 10182,
+		"user_id" : 20264,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-13T00:02:19.000Z",
+		"created_at" : "2023-01-13T00:02:19.427Z",
+		"updated_at" : "2023-01-13T00:02:19.427Z"
+	},
+	{
+		"id" : 199,
+		"projek_id" : 10182,
+		"user_id" : 20264,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-13T08:02:56.720Z",
+		"created_at" : "2023-01-13T00:02:56.720Z",
+		"updated_at" : "2023-01-13T00:02:56.720Z"
+	},
+	{
+		"id" : 200,
+		"projek_id" : 10182,
+		"user_id" : 20264,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-13T08:03:33.613Z",
+		"created_at" : "2023-01-13T00:03:33.623Z",
+		"updated_at" : "2023-01-13T00:03:33.623Z"
+	},
+	{
+		"id" : 201,
+		"projek_id" : 10182,
+		"user_id" : 20264,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-13T08:03:39.193Z",
+		"created_at" : "2023-01-13T00:03:39.207Z",
+		"updated_at" : "2023-01-13T00:03:39.207Z"
+	},
+	{
+		"id" : 202,
+		"projek_id" : 10170,
+		"user_id" : 20266,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-13T08:06:06.943Z",
+		"created_at" : "2023-01-13T00:06:06.953Z",
+		"updated_at" : "2023-01-13T00:06:06.953Z"
+	},
+	{
+		"id" : 203,
+		"projek_id" : 10184,
+		"user_id" : 10050,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-13T00:25:23.000Z",
+		"created_at" : "2023-01-13T00:25:23.853Z",
+		"updated_at" : "2023-01-13T00:25:23.853Z"
+	},
+	{
+		"id" : 204,
+		"projek_id" : 10185,
+		"user_id" : 10050,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-13T00:26:51.000Z",
+		"created_at" : "2023-01-13T00:26:51.157Z",
+		"updated_at" : "2023-01-13T00:26:51.157Z"
+	},
+	{
+		"id" : 205,
+		"projek_id" : 10189,
+		"user_id" : 10051,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-13T00:59:26.000Z",
+		"created_at" : "2023-01-13T00:59:26.847Z",
+		"updated_at" : "2023-01-13T00:59:26.847Z"
+	},
+	{
+		"id" : 206,
+		"projek_id" : 10198,
+		"user_id" : 10051,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-13T02:23:27.000Z",
+		"created_at" : "2023-01-13T02:23:27.877Z",
+		"updated_at" : "2023-01-13T02:23:27.877Z"
+	},
+	{
+		"id" : 207,
+		"projek_id" : 10199,
+		"user_id" : 1,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-13T02:32:51.000Z",
+		"created_at" : "2023-01-13T02:32:51.403Z",
+		"updated_at" : "2023-01-13T02:32:51.403Z"
+	},
+	{
+		"id" : 208,
+		"projek_id" : 10199,
+		"user_id" : 1,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-13T10:38:54.293Z",
+		"created_at" : "2023-01-13T02:38:54.257Z",
+		"updated_at" : "2023-01-13T02:38:54.257Z"
+	},
+	{
+		"id" : 209,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-13T19:37:21.493Z",
+		"created_at" : "2023-01-13T11:37:21.507Z",
+		"updated_at" : "2023-01-13T11:37:21.507Z"
+	},
+	{
+		"id" : 210,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-13T19:37:22.687Z",
+		"created_at" : "2023-01-13T11:37:22.690Z",
+		"updated_at" : "2023-01-13T11:37:22.690Z"
+	},
+	{
+		"id" : 211,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-13T11:48:20.000Z",
+		"created_at" : "2023-01-13T11:48:20.300Z",
+		"updated_at" : "2023-01-13T11:48:20.300Z"
+	},
+	{
+		"id" : 212,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-13T19:56:32.057Z",
+		"created_at" : "2023-01-13T11:56:32.057Z",
+		"updated_at" : "2023-01-13T11:56:32.057Z"
+	},
+	{
+		"id" : 213,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-13T20:05:36.997Z",
+		"created_at" : "2023-01-13T12:05:37.000Z",
+		"updated_at" : "2023-01-13T12:05:37.000Z"
+	},
+	{
+		"id" : 214,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-13T20:05:37.287Z",
+		"created_at" : "2023-01-13T12:05:37.297Z",
+		"updated_at" : "2023-01-13T12:05:37.297Z"
+	},
+	{
+		"id" : 215,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-13T20:06:44.640Z",
+		"created_at" : "2023-01-13T12:06:44.653Z",
+		"updated_at" : "2023-01-13T12:06:44.653Z"
+	},
+	{
+		"id" : 216,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-13T20:06:53.630Z",
+		"created_at" : "2023-01-13T12:06:53.640Z",
+		"updated_at" : "2023-01-13T12:06:53.640Z"
+	},
+	{
+		"id" : 217,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-13T20:07:09.563Z",
+		"created_at" : "2023-01-13T12:07:09.567Z",
+		"updated_at" : "2023-01-13T12:07:09.567Z"
+	},
+	{
+		"id" : 218,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-13T20:17:16.513Z",
+		"created_at" : "2023-01-13T12:17:16.533Z",
+		"updated_at" : "2023-01-13T12:17:16.533Z"
+	},
+	{
+		"id" : 219,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-13T20:26:39.210Z",
+		"created_at" : "2023-01-13T12:26:39.217Z",
+		"updated_at" : "2023-01-13T12:26:39.217Z"
+	},
+	{
+		"id" : 220,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-13T20:30:38.643Z",
+		"created_at" : "2023-01-13T12:30:38.657Z",
+		"updated_at" : "2023-01-13T12:30:38.657Z"
+	},
+	{
+		"id" : 221,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "Dokumen",
+		"Created_on" : "2023-01-13T20:32:24.380Z",
+		"created_at" : "2023-01-13T12:32:24.383Z",
+		"updated_at" : "2023-01-13T12:32:24.383Z"
+	},
+	{
+		"id" : 222,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-13T20:39:50.263Z",
+		"created_at" : "2023-01-13T12:39:50.277Z",
+		"updated_at" : "2023-01-13T12:39:50.277Z"
+	},
+	{
+		"id" : 223,
+		"projek_id" : 10161,
+		"user_id" : 20266,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-16T01:50:59.693Z",
+		"created_at" : "2023-01-15T17:50:59.693Z",
+		"updated_at" : "2023-01-15T17:50:59.693Z"
+	},
+	{
+		"id" : 224,
+		"projek_id" : 10161,
+		"user_id" : 20266,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-16T01:52:29.380Z",
+		"created_at" : "2023-01-15T17:52:29.383Z",
+		"updated_at" : "2023-01-15T17:52:29.383Z"
+	},
+	{
+		"id" : 225,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-15T18:38:36.000Z",
+		"created_at" : "2023-01-15T18:38:36.867Z",
+		"updated_at" : "2023-01-15T18:38:36.867Z"
+	},
+	{
+		"id" : 226,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-16T02:59:28.460Z",
+		"created_at" : "2023-01-15T18:59:28.477Z",
+		"updated_at" : "2023-01-15T18:59:28.477Z"
+	},
+	{
+		"id" : 227,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-16T03:03:37.043Z",
+		"created_at" : "2023-01-15T19:03:37.053Z",
+		"updated_at" : "2023-01-15T19:03:37.053Z"
+	},
+	{
+		"id" : 228,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-16T03:03:58.320Z",
+		"created_at" : "2023-01-15T19:03:58.320Z",
+		"updated_at" : "2023-01-15T19:03:58.320Z"
+	},
+	{
+		"id" : 229,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-16T03:05:20.273Z",
+		"created_at" : "2023-01-15T19:05:20.277Z",
+		"updated_at" : "2023-01-15T19:05:20.277Z"
+	},
+	{
+		"id" : 230,
+		"projek_id" : 10170,
+		"user_id" : 20266,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-16T03:08:21.740Z",
+		"created_at" : "2023-01-15T19:08:21.750Z",
+		"updated_at" : "2023-01-15T19:08:21.750Z"
+	},
+	{
+		"id" : 231,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-16T03:09:01.073Z",
+		"created_at" : "2023-01-15T19:09:01.083Z",
+		"updated_at" : "2023-01-15T19:09:01.083Z"
+	},
+	{
+		"id" : 232,
+		"projek_id" : 10170,
+		"user_id" : 20266,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-16T03:20:48.673Z",
+		"created_at" : "2023-01-15T19:20:48.673Z",
+		"updated_at" : "2023-01-15T19:20:48.673Z"
+	},
+	{
+		"id" : 233,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-16T03:21:07.207Z",
+		"created_at" : "2023-01-15T19:21:07.210Z",
+		"updated_at" : "2023-01-15T19:21:07.210Z"
+	},
+	{
+		"id" : 234,
+		"projek_id" : 10170,
+		"user_id" : 20266,
+		"section_name" : "Vae",
+		"Created_on" : "2023-01-16T03:23:46.987Z",
+		"created_at" : "2023-01-15T19:23:47.000Z",
+		"updated_at" : "2023-01-15T19:23:47.000Z"
+	},
+	{
+		"id" : 235,
+		"projek_id" : 10170,
+		"user_id" : 20266,
+		"section_name" : "Dokumen",
+		"Created_on" : "2023-01-16T03:24:45.437Z",
+		"created_at" : "2023-01-15T19:24:45.437Z",
+		"updated_at" : "2023-01-15T19:24:45.437Z"
+	},
+	{
+		"id" : 236,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-16T03:31:12.337Z",
+		"created_at" : "2023-01-15T19:31:12.350Z",
+		"updated_at" : "2023-01-15T19:31:12.350Z"
+	},
+	{
+		"id" : 237,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-16T03:35:10.560Z",
+		"created_at" : "2023-01-15T19:35:10.573Z",
+		"updated_at" : "2023-01-15T19:35:10.573Z"
+	},
+	{
+		"id" : 238,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "Dokumen",
+		"Created_on" : "2023-01-16T03:40:14.573Z",
+		"created_at" : "2023-01-15T19:40:14.580Z",
+		"updated_at" : "2023-01-15T19:40:14.580Z"
+	},
+	{
+		"id" : 239,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "PERAKUAN_submit",
+		"Created_on" : "2023-01-15T19:47:58.000Z",
+		"created_at" : "2023-01-15T19:47:58.220Z",
+		"updated_at" : "2023-01-15T19:47:58.220Z"
+	},
+	{
+		"id" : 240,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-16T06:46:46.230Z",
+		"created_at" : "2023-01-15T22:46:46.237Z",
+		"updated_at" : "2023-01-15T22:46:46.237Z"
+	},
+	{
+		"id" : 241,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-16T06:47:53.870Z",
+		"created_at" : "2023-01-15T22:47:53.883Z",
+		"updated_at" : "2023-01-15T22:47:53.883Z"
+	},
+	{
+		"id" : 242,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-16T06:51:12.687Z",
+		"created_at" : "2023-01-15T22:51:12.700Z",
+		"updated_at" : "2023-01-15T22:51:12.700Z"
+	},
+	{
+		"id" : 243,
+		"projek_id" : 10200,
+		"user_id" : 20263,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-16T06:54:43.087Z",
+		"created_at" : "2023-01-15T22:54:43.093Z",
+		"updated_at" : "2023-01-15T22:54:43.093Z"
+	},
+	{
+		"id" : 244,
+		"projek_id" : 10170,
+		"user_id" : 20266,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T07:55:36.367Z",
+		"created_at" : "2023-01-15T23:55:36.380Z",
+		"updated_at" : "2023-01-15T23:55:36.380Z"
+	},
+	{
+		"id" : 245,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T10:19:32.187Z",
+		"created_at" : "2023-01-16T02:19:34.810Z",
+		"updated_at" : "2023-01-16T02:19:34.810Z"
+	},
+	{
+		"id" : 246,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T10:21:23.127Z",
+		"created_at" : "2023-01-16T02:21:25.750Z",
+		"updated_at" : "2023-01-16T02:21:25.750Z"
+	},
+	{
+		"id" : 247,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T11:22:57.500Z",
+		"created_at" : "2023-01-16T03:23:00.083Z",
+		"updated_at" : "2023-01-16T03:23:00.083Z"
+	},
+	{
+		"id" : 248,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T11:24:16.890Z",
+		"created_at" : "2023-01-16T03:24:19.480Z",
+		"updated_at" : "2023-01-16T03:24:19.480Z"
+	},
+	{
+		"id" : 249,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T11:25:32.057Z",
+		"created_at" : "2023-01-16T03:25:34.647Z",
+		"updated_at" : "2023-01-16T03:25:34.647Z"
+	},
+	{
+		"id" : 250,
+		"projek_id" : 10202,
+		"user_id" : 7,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-16T03:42:21.000Z",
+		"created_at" : "2023-01-16T03:42:21.563Z",
+		"updated_at" : "2023-01-16T03:42:21.563Z"
+	},
+	{
+		"id" : 251,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T12:13:34.883Z",
+		"created_at" : "2023-01-16T04:13:37.450Z",
+		"updated_at" : "2023-01-16T04:13:37.450Z"
+	},
+	{
+		"id" : 252,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T12:18:36.970Z",
+		"created_at" : "2023-01-16T04:18:37.017Z",
+		"updated_at" : "2023-01-16T04:18:37.017Z"
+	},
+	{
+		"id" : 253,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T12:28:38.670Z",
+		"created_at" : "2023-01-16T04:28:41.230Z",
+		"updated_at" : "2023-01-16T04:28:41.230Z"
+	},
+	{
+		"id" : 254,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T12:35:41.490Z",
+		"created_at" : "2023-01-16T04:35:41.523Z",
+		"updated_at" : "2023-01-16T04:35:41.523Z"
+	},
+	{
+		"id" : 255,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T12:42:54.400Z",
+		"created_at" : "2023-01-16T04:42:56.937Z",
+		"updated_at" : "2023-01-16T04:42:56.937Z"
+	},
+	{
+		"id" : 256,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T12:43:56.180Z",
+		"created_at" : "2023-01-16T04:43:58.727Z",
+		"updated_at" : "2023-01-16T04:43:58.727Z"
+	},
+	{
+		"id" : 257,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T12:45:39.387Z",
+		"created_at" : "2023-01-16T04:45:41.923Z",
+		"updated_at" : "2023-01-16T04:45:41.923Z"
+	},
+	{
+		"id" : 258,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T12:48:52.200Z",
+		"created_at" : "2023-01-16T04:48:54.747Z",
+		"updated_at" : "2023-01-16T04:48:54.747Z"
+	},
+	{
+		"id" : 259,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T12:51:01.190Z",
+		"created_at" : "2023-01-16T04:51:03.730Z",
+		"updated_at" : "2023-01-16T04:51:03.730Z"
+	},
+	{
+		"id" : 260,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-16T13:02:09.207Z",
+		"created_at" : "2023-01-16T05:02:09.257Z",
+		"updated_at" : "2023-01-16T05:02:09.257Z"
+	},
+	{
+		"id" : 261,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-16T13:02:13.930Z",
+		"created_at" : "2023-01-16T05:02:13.987Z",
+		"updated_at" : "2023-01-16T05:02:13.987Z"
+	},
+	{
+		"id" : 262,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-16T13:02:18.297Z",
+		"created_at" : "2023-01-16T05:02:18.350Z",
+		"updated_at" : "2023-01-16T05:02:18.350Z"
+	},
+	{
+		"id" : 263,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T13:04:45.833Z",
+		"created_at" : "2023-01-16T05:04:48.360Z",
+		"updated_at" : "2023-01-16T05:04:48.360Z"
+	},
+	{
+		"id" : 264,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T13:07:40.670Z",
+		"created_at" : "2023-01-16T05:07:40.683Z",
+		"updated_at" : "2023-01-16T05:07:40.683Z"
+	},
+	{
+		"id" : 265,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T13:07:55.673Z",
+		"created_at" : "2023-01-16T05:07:58.207Z",
+		"updated_at" : "2023-01-16T05:07:58.207Z"
+	},
+	{
+		"id" : 266,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T13:08:02.310Z",
+		"created_at" : "2023-01-16T05:08:02.350Z",
+		"updated_at" : "2023-01-16T05:08:02.350Z"
+	},
+	{
+		"id" : 267,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T13:09:16.803Z",
+		"created_at" : "2023-01-16T05:09:19.337Z",
+		"updated_at" : "2023-01-16T05:09:19.337Z"
+	},
+	{
+		"id" : 268,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T13:15:52.913Z",
+		"created_at" : "2023-01-16T05:15:55.433Z",
+		"updated_at" : "2023-01-16T05:15:55.433Z"
+	},
+	{
+		"id" : 269,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T13:21:03.530Z",
+		"created_at" : "2023-01-16T05:21:06.050Z",
+		"updated_at" : "2023-01-16T05:21:06.050Z"
+	},
+	{
+		"id" : 270,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-16T13:27:29.960Z",
+		"created_at" : "2023-01-16T05:27:32.477Z",
+		"updated_at" : "2023-01-16T05:27:32.477Z"
+	},
+	{
+		"id" : 271,
+		"projek_id" : 10201,
+		"user_id" : 20262,
+		"section_name" : "Brif_Assignment",
+		"Created_on" : "2023-01-16T18:44:09.000Z",
+		"created_at" : "2023-01-16T18:44:09.173Z",
+		"updated_at" : "2023-01-16T18:44:09.173Z"
+	},
+	{
+		"id" : 272,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-17T04:09:57.920Z",
+		"created_at" : "2023-01-16T20:10:00.753Z",
+		"updated_at" : "2023-01-16T20:10:00.753Z"
+	},
+	{
+		"id" : 273,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-17T04:27:29.313Z",
+		"created_at" : "2023-01-16T20:27:32.127Z",
+		"updated_at" : "2023-01-16T20:27:32.127Z"
+	},
+	{
+		"id" : 274,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-17T04:30:02.553Z",
+		"created_at" : "2023-01-16T20:30:05.377Z",
+		"updated_at" : "2023-01-16T20:30:05.377Z"
+	},
+	{
+		"id" : 275,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-17T04:41:55.160Z",
+		"created_at" : "2023-01-16T20:41:57.980Z",
+		"updated_at" : "2023-01-16T20:41:57.980Z"
+	},
+	{
+		"id" : 276,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-17T05:23:43.260Z",
+		"created_at" : "2023-01-16T21:23:43.263Z",
+		"updated_at" : "2023-01-16T21:23:43.263Z"
+	},
+	{
+		"id" : 277,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-17T05:24:15.627Z",
+		"created_at" : "2023-01-16T21:24:15.640Z",
+		"updated_at" : "2023-01-16T21:24:15.640Z"
+	},
+	{
+		"id" : 278,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-17T05:27:52.250Z",
+		"created_at" : "2023-01-16T21:27:52.253Z",
+		"updated_at" : "2023-01-16T21:27:52.253Z"
+	},
+	{
+		"id" : 279,
+		"projek_id" : 10132,
+		"user_id" : 10084,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-17T05:28:27.557Z",
+		"created_at" : "2023-01-16T21:28:27.563Z",
+		"updated_at" : "2023-01-16T21:28:27.563Z"
+	},
+	{
+		"id" : 280,
+		"projek_id" : 10156,
+		"user_id" : 7,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-17T05:48:05.777Z",
+		"created_at" : "2023-01-16T21:48:08.557Z",
+		"updated_at" : "2023-01-16T21:48:08.557Z"
+	},
+	{
+		"id" : 281,
+		"projek_id" : 10203,
+		"user_id" : 20264,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-16T21:58:34.000Z",
+		"created_at" : "2023-01-16T21:58:34.287Z",
+		"updated_at" : "2023-01-16T21:58:34.287Z"
+	},
+	{
+		"id" : 282,
+		"projek_id" : 10204,
+		"user_id" : 10084,
+		"section_name" : "Brif",
+		"Created_on" : "2023-01-16T22:09:41.000Z",
+		"created_at" : "2023-01-16T22:09:41.493Z",
+		"updated_at" : "2023-01-16T22:09:41.493Z"
+	},
+	{
+		"id" : 283,
+		"projek_id" : 10204,
+		"user_id" : 10084,
+		"section_name" : "RmkOBB",
+		"Created_on" : "2023-01-17T06:11:27.507Z",
+		"created_at" : "2023-01-16T22:11:27.507Z",
+		"updated_at" : "2023-01-16T22:11:27.507Z"
+	},
+	{
+		"id" : 284,
+		"projek_id" : 10204,
+		"user_id" : 10084,
+		"section_name" : "outpage",
+		"Created_on" : "2023-01-17T06:12:19.953Z",
+		"created_at" : "2023-01-16T22:12:19.963Z",
+		"updated_at" : "2023-01-16T22:12:19.963Z"
+	},
+	{
+		"id" : 285,
+		"projek_id" : 10204,
+		"user_id" : 10084,
+		"section_name" : "Negeri",
+		"Created_on" : "2023-01-17T06:13:22.553Z",
+		"created_at" : "2023-01-16T22:13:22.553Z",
+		"updated_at" : "2023-01-16T22:13:22.553Z"
+	},
+	{
+		"id" : 286,
+		"projek_id" : 10204,
+		"user_id" : 10084,
+		"section_name" : "Vae",
+		"Created_on" : "2023-01-17T06:18:13.950Z",
+		"created_at" : "2023-01-16T22:18:13.963Z",
+		"updated_at" : "2023-01-16T22:18:13.963Z"
+	},
+	{
+		"id" : 287,
+		"projek_id" : 10204,
+		"user_id" : 10084,
+		"section_name" : "Creativity",
+		"Created_on" : "2023-01-17T06:20:31.930Z",
+		"created_at" : "2023-01-16T22:20:31.933Z",
+		"updated_at" : "2023-01-16T22:20:31.933Z"
+	},
+	{
+		"id" : 288,
+		"projek_id" : 10148,
+		"user_id" : 1,
+		"section_name" : "Vae",
+		"Created_on" : "2023-01-17T06:44:16.920Z",
+		"created_at" : "2023-01-16T22:44:16.117Z",
+		"updated_at" : "2023-01-16T22:44:16.117Z"
+	},
+	{
+		"id" : 289,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-17T06:51:13.200Z",
+		"created_at" : "2023-01-16T22:51:13.200Z",
+		"updated_at" : "2023-01-16T22:51:13.200Z"
+	},
+	{
+		"id" : 290,
+		"projek_id" : 10157,
+		"user_id" : 20264,
+		"section_name" : "kewangan",
+		"Created_on" : "2023-01-17T07:00:11.223Z",
+		"created_at" : "2023-01-16T23:00:11.223Z",
+		"updated_at" : "2023-01-16T23:00:11.223Z"
+	}
+]}

@@ -1,0 +1,42 @@
+.img1{
+    max-width: 20%;
+    height: auto;
+    margin-right: 5%;
+    margin-left: -10%;
+   
+}
+.img2{
+    width: 15%;
+    height: auto;
+    margin-right: 8%;
+    
+
+}
+.img3{
+    max-width: 10%;
+    height: auto;
+  
+}
+
+.font{
+    font-size:25px;
+}
+.font2{
+    font-size:19px;
+    font-weight: bold;
+}
+
+.card-body{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 2px solid;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.logo{
+    margin-top:5%;
+}

@@ -1,0 +1,428 @@
+{
+"migrations": [
+	{
+		"id" : 1,
+		"migration" : "2014_10_12_000000_create_users1_table",
+		"batch" : 1
+	},
+	{
+		"id" : 2,
+		"migration" : "2014_10_12_100000_create_password_resets_table",
+		"batch" : 1
+	},
+	{
+		"id" : 3,
+		"migration" : "2019_08_19_000000_create_failed_jobs_table",
+		"batch" : 1
+	},
+	{
+		"id" : 4,
+		"migration" : "2019_12_14_000001_create_personal_access_tokens_table",
+		"batch" : 1
+	},
+	{
+		"id" : 5,
+		"migration" : "2022_11_07_114441_create_ref_agensi",
+		"batch" : 1
+	},
+	{
+		"id" : 6,
+		"migration" : "2022_11_07_114513_create_ref_kementerian_table",
+		"batch" : 1
+	},
+	{
+		"id" : 7,
+		"migration" : "2022_11_07_114546_create_ref_jabatan",
+		"batch" : 1
+	},
+	{
+		"id" : 8,
+		"migration" : "2022_11_07_114812_create_ref_bahagian",
+		"batch" : 1
+	},
+	{
+		"id" : 9,
+		"migration" : "2022_11_07_115341_create_ref_gred_jawatan",
+		"batch" : 1
+	},
+	{
+		"id" : 10,
+		"migration" : "2022_11_07_115427_create_ref_jawatan",
+		"batch" : 1
+	},
+	{
+		"id" : 11,
+		"migration" : "2022_11_07_115527_create_ref_jenis_pengguna",
+		"batch" : 1
+	},
+	{
+		"id" : 12,
+		"migration" : "2022_11_07_115554_create_ref_negeri",
+		"batch" : 1
+	},
+	{
+		"id" : 13,
+		"migration" : "2022_11_07_116937_create_ref_daerah",
+		"batch" : 1
+	},
+	{
+		"id" : 14,
+		"migration" : "2022_11_07_120946_create_users_table",
+		"batch" : 1
+	},
+	{
+		"id" : 15,
+		"migration" : "2022_11_07_121106_create_temp_users_table",
+		"batch" : 1
+	},
+	{
+		"id" : 16,
+		"migration" : "2022_11_11_033243_create_sessions_table",
+		"batch" : 1
+	},
+	{
+		"id" : 17,
+		"migration" : "2022_11_12_200000_add_two_factor_columns_to_users_table",
+		"batch" : 1
+	},
+	{
+		"id" : 18,
+		"migration" : "2022_11_14_132312_create_media_table",
+		"batch" : 1
+	},
+	{
+		"id" : 19,
+		"migration" : "2022_11_19_061856_create_lookup_table",
+		"batch" : 1
+	},
+	{
+		"id" : 20,
+		"migration" : "2022_11_20_034701_create_ref_parliment",
+		"batch" : 1
+	},
+	{
+		"id" : 21,
+		"migration" : "2022_11_20_034829_create_ref_dun",
+		"batch" : 1
+	},
+	{
+		"id" : 22,
+		"migration" : "2022_11_22_080441_create_cms_pengenalan_table",
+		"batch" : 1
+	},
+	{
+		"id" : 23,
+		"migration" : "2022_11_22_081036_create_cms_footer_table",
+		"batch" : 1
+	},
+	{
+		"id" : 24,
+		"migration" : "2022_11_22_081345_create_cms_header_table",
+		"batch" : 1
+	},
+	{
+		"id" : 25,
+		"migration" : "2022_11_22_081702_create_dokumen_sokongan_pengguna_table",
+		"batch" : 1
+	},
+	{
+		"id" : 26,
+		"migration" : "2022_11_24_043644_create_ref_mukim_table",
+		"batch" : 1
+	},
+	{
+		"id" : 27,
+		"migration" : "2022_11_24_060155_add_rejection_changes_to_temp_users_table",
+		"batch" : 1
+	},
+	{
+		"id" : 28,
+		"migration" : "2022_11_25_090033_create_cms_kandungan_table",
+		"batch" : 1
+	},
+	{
+		"id" : 29,
+		"migration" : "2022_11_25_140230_create_cms_pengumuman_table",
+		"batch" : 1
+	},
+	{
+		"id" : 30,
+		"migration" : "2022_12_01_112412_create_ref_jenis_kategori_table",
+		"batch" : 1
+	},
+	{
+		"id" : 31,
+		"migration" : "2022_12_01_112418_create_ref_jenis_sub_kategori_table",
+		"batch" : 1
+	},
+	{
+		"id" : 32,
+		"migration" : "2022_12_01_112616_create_ref_bahagian_epu_jpm_table",
+		"batch" : 1
+	},
+	{
+		"id" : 33,
+		"migration" : "2022_12_01_112630_create_ref_sektor_utama_table",
+		"batch" : 1
+	},
+	{
+		"id" : 34,
+		"migration" : "2022_12_01_112638_create_ref_sektor_table",
+		"batch" : 1
+	},
+	{
+		"id" : 35,
+		"migration" : "2022_12_01_112645_create_ref_sub_sektor_table",
+		"batch" : 1
+	},
+	{
+		"id" : 36,
+		"migration" : "2022_12_01_120156_create_lookup_options_table",
+		"batch" : 1
+	},
+	{
+		"id" : 37,
+		"migration" : "2022_12_01_120212_create_project_table",
+		"batch" : 1
+	},
+	{
+		"id" : 38,
+		"migration" : "2022_12_01_125600_create_project_negeri_dokumen_table",
+		"batch" : 1
+	},
+	{
+		"id" : 39,
+		"migration" : "2022_12_01_144037_create_project_negeri_lokas_table",
+		"batch" : 1
+	},
+	{
+		"id" : 40,
+		"migration" : "2022_12_02_134547_create_skop_projects_table",
+		"batch" : 1
+	},
+	{
+		"id" : 41,
+		"migration" : "2022_12_03_042319_create_rolling_plan_table",
+		"batch" : 1
+	},
+	{
+		"id" : 42,
+		"migration" : "2022_12_03_043920_create_audits_table",
+		"batch" : 1
+	},
+	{
+		"id" : 43,
+		"migration" : "2022_12_03_142944_create__projek_vae_table",
+		"batch" : 1
+	},
+	{
+		"id" : 44,
+		"migration" : "2022_12_05_044126_create_bahagian_terlibat_table",
+		"batch" : 1
+	},
+	{
+		"id" : 45,
+		"migration" : "2022_12_05_062727_create_project_ci_outcome_table",
+		"batch" : 1
+	},
+	{
+		"id" : 46,
+		"migration" : "2022_12_05_062736_create_project_ci_output_table",
+		"batch" : 1
+	},
+	{
+		"id" : 47,
+		"migration" : "2022_12_05_062903_create_project_ci_impak_table",
+		"batch" : 1
+	},
+	{
+		"id" : 48,
+		"migration" : "2022_12_06_042737_create_project_dokumen_lampiran",
+		"batch" : 1
+	},
+	{
+		"id" : 49,
+		"migration" : "2022_12_06_141358_create_pemberat_projeck_baharu_table",
+		"batch" : 1
+	},
+	{
+		"id" : 50,
+		"migration" : "2022_12_07_055025_create_project_kpi",
+		"batch" : 1
+	},
+	{
+		"id" : 51,
+		"migration" : "2022_12_07_072219_create_ref_strategi_table",
+		"batch" : 1
+	},
+	{
+		"id" : 52,
+		"migration" : "2022_12_07_172745_create_ref_rkm_obb_aktivity_table",
+		"batch" : 1
+	},
+	{
+		"id" : 53,
+		"migration" : "2022_12_08_081054_create_projek_kewangan_siling_kos_table",
+		"batch" : 1
+	},
+	{
+		"id" : 54,
+		"migration" : "2022_12_08_125900_create_pentadbir_modules_table",
+		"batch" : 1
+	},
+	{
+		"id" : 55,
+		"migration" : "2022_12_08_131205_create_pentadbir__selenggara__dashboard__analisis_table",
+		"batch" : 1
+	},
+	{
+		"id" : 56,
+		"migration" : "2022_12_10_123000_create_project_kajian_table",
+		"batch" : 1
+	},
+	{
+		"id" : 57,
+		"migration" : "2022_12_12_093942_create_projek_kewangan_bayaran_suku_tahunan_table",
+		"batch" : 1
+	},
+	{
+		"id" : 58,
+		"migration" : "2022_12_13_071514_create_projek_kewangan_maklumat_peruntukan_table",
+		"batch" : 1
+	},
+	{
+		"id" : 59,
+		"migration" : "2022_12_13_111806_create_ref_sasaran_table",
+		"batch" : 1
+	},
+	{
+		"id" : 60,
+		"migration" : "2022_12_13_111814_create_ref_unit_table",
+		"batch" : 1
+	},
+	{
+		"id" : 61,
+		"migration" : "2022_12_13_111823_create_ref_indikator_table",
+		"batch" : 1
+	},
+	{
+		"id" : 62,
+		"migration" : "2022_12_13_111834_create_ref_komponen_table",
+		"batch" : 1
+	},
+	{
+		"id" : 63,
+		"migration" : "2022_12_13_111857_create_ref_rmk_sdg_table",
+		"batch" : 1
+	},
+	{
+		"id" : 64,
+		"migration" : "2022_12_13_120312_create_projek_kewangan_kategori_belanja_table",
+		"batch" : 1
+	},
+	{
+		"id" : 65,
+		"migration" : "2022_12_14_050530_create_master_peranan_table",
+		"batch" : 1
+	},
+	{
+		"id" : 66,
+		"migration" : "2022_12_14_051346_create_peranan_module_table",
+		"batch" : 1
+	},
+	{
+		"id" : 67,
+		"migration" : "2022_12_14_051759_create_user_peranan_table",
+		"batch" : 1
+	},
+	{
+		"id" : 68,
+		"migration" : "2022_12_15_125150_create_pejabat_projek_table",
+		"batch" : 1
+	},
+	{
+		"id" : 69,
+		"migration" : "2022_12_15_142538_alter_user_table",
+		"batch" : 1
+	},
+	{
+		"id" : 70,
+		"migration" : "2022_12_16_121916_alter_temp_user_table",
+		"batch" : 1
+	},
+	{
+		"id" : 71,
+		"migration" : "2022_12_16_150251_alter_project_table",
+		"batch" : 1
+	},
+	{
+		"id" : 72,
+		"migration" : "2022_12_20_073447_create_rmk_obb_sdg_table",
+		"batch" : 1
+	},
+	{
+		"id" : 73,
+		"migration" : "2022_12_20_073513_create_rmk_obb_sdg_indikator_table",
+		"batch" : 1
+	},
+	{
+		"id" : 74,
+		"migration" : "2022_12_20_073524_create_rmk_obb_sdg_sasaran_table",
+		"batch" : 1
+	},
+	{
+		"id" : 75,
+		"migration" : "2022_12_20_073550_create_projeck_kewangan_skop_komponen_table",
+		"batch" : 1
+	},
+	{
+		"id" : 76,
+		"migration" : "2022_12_20_073608_create_projeck_kewangan_yuran_perunding_table",
+		"batch" : 1
+	},
+	{
+		"id" : 77,
+		"migration" : "2022_12_20_073637_create_projeck_outcome_table",
+		"batch" : 1
+	},
+	{
+		"id" : 78,
+		"migration" : "2022_12_20_073645_create_projeck_output_table",
+		"batch" : 1
+	},
+	{
+		"id" : 79,
+		"migration" : "2022_12_20_073657_create_projeck_kewangan_details_table",
+		"batch" : 1
+	},
+	{
+		"id" : 80,
+		"migration" : "2022_12_21_104517_alter_vae_table",
+		"batch" : 1
+	},
+	{
+		"id" : 81,
+		"migration" : "2022_12_22_015616_create_running_numbers_table",
+		"batch" : 1
+	},
+	{
+		"id" : 82,
+		"migration" : "2022_12_23_073110_alter_project_add_column_is_bahagian_terlibat",
+		"batch" : 1
+	},
+	{
+		"id" : 83,
+		"migration" : "2022_12_25_152349_create_skop_options_table",
+		"batch" : 1
+	},
+	{
+		"id" : 84,
+		"migration" : "2022_12_25_152417_create_sub_skop_options_table",
+		"batch" : 1
+	},
+	{
+		"id" : 85,
+		"migration" : "2023_01_04_094657_create_projek_log_table",
+		"batch" : 2
+	}
+]}

@@ -1,0 +1,235 @@
+{
+"running_numbers": [
+	{
+		"id" : 1,
+		"year" : 2022,
+		"number" : 3,
+		"type" : " PRABN",
+		"created_at" : "2022-12-26T05:38:08.587Z",
+		"updated_at" : "2022-12-27T19:02:04.237Z"
+	},
+	{
+		"id" : 2,
+		"year" : 2022,
+		"number" : 3,
+		"type" : "BUBPK",
+		"created_at" : "2022-12-26T06:17:55.627Z",
+		"updated_at" : "2022-12-29T02:03:10.897Z"
+	},
+	{
+		"id" : 3,
+		"year" : 2022,
+		"number" : 4,
+		"type" : "HTC KL",
+		"created_at" : "2022-12-26T18:27:25.823Z",
+		"updated_at" : "2022-12-30T04:12:15.457Z"
+	},
+	{
+		"id" : 4,
+		"year" : 2022,
+		"number" : 10,
+		"type" : "BPZP",
+		"created_at" : "2022-12-26T21:00:54.867Z",
+		"updated_at" : "2022-12-30T00:56:55.330Z"
+	},
+	{
+		"id" : 5,
+		"year" : 2022,
+		"number" : 3,
+		"type" : "BPME_IPOH",
+		"created_at" : "2022-12-27T03:09:38.323Z",
+		"updated_at" : "2022-12-29T03:56:21.257Z"
+	},
+	{
+		"id" : 6,
+		"year" : 2022,
+		"number" : 8,
+		"type" : "BPLS",
+		"created_at" : "2022-12-27T04:25:13.413Z",
+		"updated_at" : "2022-12-28T17:09:54.490Z"
+	},
+	{
+		"id" : 7,
+		"year" : 2022,
+		"number" : 13,
+		"type" : "BPB",
+		"created_at" : "2022-12-27T16:43:35.843Z",
+		"updated_at" : "2022-12-28T22:33:50.467Z"
+	},
+	{
+		"id" : 8,
+		"year" : 2022,
+		"number" : 6,
+		"type" : "BKOR",
+		"created_at" : "2022-12-27T17:22:21.527Z",
+		"updated_at" : "2022-12-29T05:12:06.047Z"
+	},
+	{
+		"id" : 9,
+		"year" : 2022,
+		"number" : 4,
+		"type" : "BKP",
+		"created_at" : "2022-12-27T22:55:42.937Z",
+		"updated_at" : "2022-12-28T06:49:24.470Z"
+	},
+	{
+		"id" : 10,
+		"year" : 2022,
+		"number" : 5,
+		"type" : " BSMA",
+		"created_at" : "2022-12-28T04:43:21.450Z",
+		"updated_at" : "2022-12-29T17:38:15.043Z"
+	},
+	{
+		"id" : 11,
+		"year" : 2022,
+		"number" : 3,
+		"type" : "BPM",
+		"created_at" : "2022-12-28T19:26:40.383Z",
+		"updated_at" : "2022-12-28T23:21:37.740Z"
+	},
+	{
+		"id" : 12,
+		"year" : 2022,
+		"number" : 4,
+		"type" : "BAP",
+		"created_at" : "2022-12-28T19:38:29.407Z",
+		"updated_at" : "2022-12-28T19:38:42.950Z"
+	},
+	{
+		"id" : 13,
+		"year" : 2022,
+		"number" : 2,
+		"type" : "BBI",
+		"created_at" : "2022-12-28T19:50:07.537Z",
+		"updated_at" : "2022-12-28T19:50:08.817Z"
+	},
+	{
+		"id" : 14,
+		"year" : 2022,
+		"number" : 2,
+		"type" : "BPMI",
+		"created_at" : "2022-12-29T01:29:35.080Z",
+		"updated_at" : "2022-12-29T01:29:35.097Z"
+	},
+	{
+		"id" : 15,
+		"year" : 2023,
+		"number" : 31,
+		"type" : "BPB",
+		"created_at" : "2023-01-02T02:30:32.447Z",
+		"updated_at" : "2023-01-16T21:58:34.270Z"
+	},
+	{
+		"id" : 16,
+		"year" : 2023,
+		"number" : 4,
+		"type" : " BPK",
+		"created_at" : "2023-01-02T07:42:41.680Z",
+		"updated_at" : "2023-01-12T11:02:51.380Z"
+	},
+	{
+		"id" : 17,
+		"year" : 2023,
+		"number" : 7,
+		"type" : "BKOR",
+		"created_at" : "2023-01-02T10:37:34.687Z",
+		"updated_at" : "2023-01-09T01:29:46.417Z"
+	},
+	{
+		"id" : 18,
+		"year" : 2023,
+		"number" : 4,
+		"type" : "BPZP",
+		"created_at" : "2023-01-02T18:22:51.400Z",
+		"updated_at" : "2023-01-13T02:32:47.343Z"
+	},
+	{
+		"id" : 19,
+		"year" : 2023,
+		"number" : 13,
+		"type" : "BPLS",
+		"created_at" : "2023-01-02T22:44:53.143Z",
+		"updated_at" : "2023-01-12T06:56:26.050Z"
+	},
+	{
+		"id" : 20,
+		"year" : 2023,
+		"number" : 11,
+		"type" : "BKP",
+		"created_at" : "2023-01-03T03:24:35.297Z",
+		"updated_at" : "2023-01-13T02:23:26.607Z"
+	},
+	{
+		"id" : 21,
+		"year" : 2023,
+		"number" : 12,
+		"type" : " BSMA",
+		"created_at" : "2023-01-03T17:15:05.490Z",
+		"updated_at" : "2023-01-16T03:42:20.547Z"
+	},
+	{
+		"id" : 22,
+		"year" : 2023,
+		"number" : 4,
+		"type" : "BPM",
+		"created_at" : "2023-01-03T18:55:35.437Z",
+		"updated_at" : "2023-01-12T20:49:21.957Z"
+	},
+	{
+		"id" : 23,
+		"year" : 2023,
+		"number" : 3,
+		"type" : "BBI",
+		"created_at" : "2023-01-05T02:14:42.833Z",
+		"updated_at" : "2023-01-09T19:30:58.063Z"
+	},
+	{
+		"id" : 24,
+		"year" : 2023,
+		"number" : 4,
+		"type" : " PRABN",
+		"created_at" : "2023-01-05T06:21:56.180Z",
+		"updated_at" : "2023-01-13T00:26:51.147Z"
+	},
+	{
+		"id" : 25,
+		"year" : 2023,
+		"number" : 4,
+		"type" : " BRE",
+		"created_at" : "2023-01-06T09:01:00.043Z",
+		"updated_at" : "2023-01-12T00:52:29.597Z"
+	},
+	{
+		"id" : 26,
+		"year" : 2023,
+		"number" : 4,
+		"type" : "BPME_IPOH",
+		"created_at" : "2023-01-08T05:33:11.903Z",
+		"updated_at" : "2023-01-16T22:09:41.487Z"
+	},
+	{
+		"id" : 27,
+		"year" : 2023,
+		"number" : 3,
+		"type" : "BUBPK",
+		"created_at" : "2023-01-08T19:14:51.557Z",
+		"updated_at" : "2023-01-09T19:11:20.250Z"
+	},
+	{
+		"id" : 28,
+		"year" : 2023,
+		"number" : 2,
+		"type" : "HTC KL",
+		"created_at" : "2023-01-09T06:28:46.697Z",
+		"updated_at" : "2023-01-09T06:28:46.703Z"
+	},
+	{
+		"id" : 29,
+		"year" : 2023,
+		"number" : 2,
+		"type" : "BPME",
+		"created_at" : "2023-01-13T00:25:23.837Z",
+		"updated_at" : "2023-01-13T00:25:23.840Z"
+	}
+]}

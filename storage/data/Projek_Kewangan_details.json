@@ -1,0 +1,45 @@
+{
+"Projek_Kewangan_details": [
+	{
+		"id" : null,
+		"permohonan_projek_id" : 10027,
+		"Komponen_id" : 3,
+		"Siling_Dimohon" : 50033,
+		"Siling_Bayangan" : 30033,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-15T01:07:10.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2022-12-16T00:06:33.000Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-15T01:07:10.950Z",
+		"updated_at" : "2022-12-16T00:06:33.860Z"
+	},
+	{
+		"id" : null,
+		"permohonan_projek_id" : 16,
+		"Komponen_id" : 1,
+		"Siling_Dimohon" : 4545646,
+		"Siling_Bayangan" : 2023,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-15T23:57:19.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2022-12-17T07:45:16.000Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-15T23:57:19.440Z",
+		"updated_at" : "2022-12-17T07:45:16.950Z"
+	},
+	{
+		"id" : null,
+		"permohonan_projek_id" : 20128,
+		"Komponen_id" : 2,
+		"Siling_Dimohon" : 50000,
+		"Siling_Bayangan" : 50000,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-18T20:07:51.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2022-12-18T23:13:33.000Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-18T20:07:51.587Z",
+		"updated_at" : "2022-12-18T23:13:33.890Z"
+	}
+]}

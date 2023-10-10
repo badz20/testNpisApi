@@ -1,0 +1,18 @@
+{
+"cms_kandungan": [
+	{
+		"id" : 1,
+		"unique_key" : "contact",
+		"tajuk" : "contact",
+		"keterangan" : "",
+		"json_values" : "{\"phone_no\":\"tewrwer\",\"email\":\"wewer\",\"address\":\"ewr\",\"mapCode\":\"ewr\"}",
+		"is_video" : 0,
+		"dibuat_oleh" : 7,
+		"dibuat_pada" : "2023-01-12T06:30:42.167Z",
+		"dikemaskini_oleh" : 7,
+		"dikemaskini_pada" : "2023-01-11T22:30:42.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-11T22:30:42.167Z",
+		"updated_at" : "2023-01-11T22:30:42.167Z"
+	}
+]}

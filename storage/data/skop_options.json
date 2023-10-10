@@ -1,0 +1,111 @@
+{
+"skop_options": [
+	{
+		"id" : 1,
+		"skop_code" : "1",
+		"skop_name" : "Preliminaries and General Item",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-24T23:27:11.810Z",
+		"dikemaskini_oleh" : null,
+		"dikemaskini_pada" : null,
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 2,
+		"skop_code" : "2",
+		"skop_name" : "Perlantikan Perunding",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-24T23:27:35.773Z",
+		"dikemaskini_oleh" : null,
+		"dikemaskini_pada" : null,
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 3,
+		"skop_code" : "3",
+		"skop_name" : "Perlantikan Jurukur",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-24T23:27:11.810Z",
+		"dikemaskini_oleh" : null,
+		"dikemaskini_pada" : null,
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 4,
+		"skop_code" : "4",
+		"skop_name" : "Main Works",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-24T23:27:35.773Z",
+		"dikemaskini_oleh" : null,
+		"dikemaskini_pada" : null,
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 5,
+		"skop_code" : "5",
+		"skop_name" : "Miscellaneous",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-24T23:27:35.773Z",
+		"dikemaskini_oleh" : null,
+		"dikemaskini_pada" : null,
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 6,
+		"skop_code" : "6",
+		"skop_name" : "Pengurusan Projek",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-24T23:27:11.810Z",
+		"dikemaskini_oleh" : null,
+		"dikemaskini_pada" : null,
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 7,
+		"skop_code" : "7",
+		"skop_name" : "Projek ICT",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-24T23:27:35.773Z",
+		"dikemaskini_oleh" : null,
+		"dikemaskini_pada" : null,
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 8,
+		"skop_code" : "8",
+		"skop_name" : "Perolehan M&E",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-24T23:27:35.773Z",
+		"dikemaskini_oleh" : null,
+		"dikemaskini_pada" : null,
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 9,
+		"skop_code" : "9",
+		"skop_name" : "Penyiasatan Tanah (S.I)",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-24T23:27:35.773Z",
+		"dikemaskini_oleh" : null,
+		"dikemaskini_pada" : null,
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	}
+]}

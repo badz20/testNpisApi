@@ -1,0 +1,99 @@
+{
+"RMK_OBB_SDG_Indikatori": [
+	{
+		"id" : 1,
+		"Indikatori_id" : 59,
+		"permohonan_projek_id" : 10131,
+		"dibuat_oleh" : 10050,
+		"dibuat_pada" : "2023-01-08T22:05:34.000Z",
+		"dikemaskini_oleh" : 10050,
+		"dikemaskini_pada" : "2023-01-08T22:05:34.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-08T22:05:34.620Z",
+		"updated_at" : "2023-01-08T22:05:34.620Z"
+	},
+	{
+		"id" : 2,
+		"Indikatori_id" : 157,
+		"permohonan_projek_id" : 10139,
+		"dibuat_oleh" : 10084,
+		"dibuat_pada" : "2023-01-09T17:17:02.000Z",
+		"dikemaskini_oleh" : 10084,
+		"dikemaskini_pada" : "2023-01-09T17:17:02.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-09T17:17:02.007Z",
+		"updated_at" : "2023-01-09T17:17:02.007Z"
+	},
+	{
+		"id" : 3,
+		"Indikatori_id" : 193,
+		"permohonan_projek_id" : 10138,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-09T17:40:39.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-09T17:40:39.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-09T17:40:39.317Z",
+		"updated_at" : "2023-01-09T17:40:39.317Z"
+	},
+	{
+		"id" : 4,
+		"Indikatori_id" : 21,
+		"permohonan_projek_id" : 10140,
+		"dibuat_oleh" : 10051,
+		"dibuat_pada" : "2023-01-09T18:43:35.000Z",
+		"dikemaskini_oleh" : 10051,
+		"dikemaskini_pada" : "2023-01-09T18:43:35.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-09T18:43:35.597Z",
+		"updated_at" : "2023-01-09T18:43:35.597Z"
+	},
+	{
+		"id" : 5,
+		"Indikatori_id" : 194,
+		"permohonan_projek_id" : 10145,
+		"dibuat_oleh" : 10085,
+		"dibuat_pada" : "2023-01-10T00:10:10.000Z",
+		"dikemaskini_oleh" : 10085,
+		"dikemaskini_pada" : "2023-01-10T00:10:10.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-10T00:10:10.040Z",
+		"updated_at" : "2023-01-10T00:10:10.040Z"
+	},
+	{
+		"id" : 6,
+		"Indikatori_id" : 145,
+		"permohonan_projek_id" : 10146,
+		"dibuat_oleh" : 10031,
+		"dibuat_pada" : "2023-01-10T17:55:11.000Z",
+		"dikemaskini_oleh" : 10031,
+		"dikemaskini_pada" : "2023-01-10T17:56:40.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-10T17:55:11.540Z",
+		"updated_at" : "2023-01-10T17:56:40.170Z"
+	},
+	{
+		"id" : 7,
+		"Indikatori_id" : 171,
+		"permohonan_projek_id" : 10148,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-10T18:04:51.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-10T18:04:51.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-10T18:04:51.127Z",
+		"updated_at" : "2023-01-10T18:04:51.127Z"
+	},
+	{
+		"id" : 8,
+		"Indikatori_id" : 166,
+		"permohonan_projek_id" : 10151,
+		"dibuat_oleh" : 10050,
+		"dibuat_pada" : "2023-01-11T23:04:08.000Z",
+		"dikemaskini_oleh" : 10050,
+		"dikemaskini_pada" : "2023-01-11T23:04:08.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-11T23:04:08.183Z",
+		"updated_at" : "2023-01-11T23:04:08.183Z"
+	}
+]}

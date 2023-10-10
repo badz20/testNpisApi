@@ -1,0 +1,99 @@
+{
+"REF_Komponen": [
+	{
+		"id" : 1,
+		"kod" : "1",
+		"nama_komponen" : "TIADA BERKAITAN",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.423Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.423Z",
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 2,
+		"kod" : "2",
+		"nama_komponen" : "DE Asas",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.423Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.423Z",
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 3,
+		"kod" : "3",
+		"nama_komponen" : "Bukan DE Asas - Komitmen Kewangan",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.423Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.423Z",
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 4,
+		"kod" : "4",
+		"nama_komponen" : "Bukan DE Asas - OE KE DE (Reclass)",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.423Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.423Z",
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 5,
+		"kod" : "5",
+		"nama_komponen" : "Bukan DE Asas - PPP\/PFI",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.423Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.423Z",
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 6,
+		"kod" : "6",
+		"nama_komponen" : "Bukan DE Asas - Pelan Pemulihan",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.423Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.423Z",
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 7,
+		"kod" : "7",
+		"nama_komponen" : "Bukan DE Asas - Dana Mudahcara Infrastruktur",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.423Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.423Z",
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 8,
+		"kod" : "8",
+		"nama_komponen" : "Bukan DE Asas - OE KE DE",
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T12:52:45.423Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T12:52:45.423Z",
+		"row_status" : 1,
+		"created_at" : null,
+		"updated_at" : null
+	}
+]}

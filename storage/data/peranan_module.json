@@ -1,0 +1,99 @@
+{
+"peranan_module": [
+	{
+		"id" : 2,
+		"peranan_id" : 6,
+		"module_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-28T04:40:52.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2022-12-28T04:40:52.000Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-28T04:40:52.950Z",
+		"updated_at" : "2022-12-28T04:40:52.950Z"
+	},
+	{
+		"id" : 3,
+		"peranan_id" : 7,
+		"module_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-28T05:28:24.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2022-12-28T05:28:24.000Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-28T05:28:24.053Z",
+		"updated_at" : "2022-12-28T05:28:24.053Z"
+	},
+	{
+		"id" : 5,
+		"peranan_id" : 9,
+		"module_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2022-12-29T02:40:24.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2022-12-29T02:40:24.000Z",
+		"row_status" : 1,
+		"created_at" : "2022-12-29T02:40:24.067Z",
+		"updated_at" : "2022-12-29T02:40:24.067Z"
+	},
+	{
+		"id" : 6,
+		"peranan_id" : 10,
+		"module_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-03T07:34:59.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-03T07:34:59.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-03T07:34:59.260Z",
+		"updated_at" : "2023-01-03T07:34:59.260Z"
+	},
+	{
+		"id" : 7,
+		"peranan_id" : 11,
+		"module_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-04T22:48:27.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-04T22:48:27.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-04T22:48:27.930Z",
+		"updated_at" : "2023-01-04T22:48:27.930Z"
+	},
+	{
+		"id" : 8,
+		"peranan_id" : 12,
+		"module_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T07:23:46.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T07:23:46.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-16T07:23:46.697Z",
+		"updated_at" : "2023-01-16T07:23:46.697Z"
+	},
+	{
+		"id" : 9,
+		"peranan_id" : 13,
+		"module_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T20:29:20.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T20:29:20.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-16T20:29:20.313Z",
+		"updated_at" : "2023-01-16T20:29:20.313Z"
+	},
+	{
+		"id" : 10,
+		"peranan_id" : 14,
+		"module_id" : 1,
+		"dibuat_oleh" : 1,
+		"dibuat_pada" : "2023-01-16T21:45:01.000Z",
+		"dikemaskini_oleh" : 1,
+		"dikemaskini_pada" : "2023-01-16T21:45:01.000Z",
+		"row_status" : 1,
+		"created_at" : "2023-01-16T21:45:01.137Z",
+		"updated_at" : "2023-01-16T21:45:01.137Z"
+	}
+]}

@@ -72,3 +72,6 @@ VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 https://github.com/DeepZoneTechnologies/NPISDevelopmentNew.git
 
 https://github.com/DeepZoneTechnologies/NPIS_API.git
+
+GOOGLE_SITE_KEY=6LfewgkjAAAAAENUC3_Jv6odsc-cga2arJtWcwus
+GOOGLE_SECRET_KEY=6LfewgkjAAAAANPoh7qEaDRoN337gttpj5l-EJa1

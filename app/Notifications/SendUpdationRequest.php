@@ -45,12 +45,17 @@ class SendUpdationRequest extends Notification implements ShouldQueue
      */
     public function toMail($notifiable)
     {
+        // return (new MailMessage)
+        //             ->subject("Project Updation Notification")
+        //             ->line("Salam Sejahtera,")
+        //             ->line("Sila semak ulasan dan kemas kini permohonan anda.")
+        //             ->line($this->userData['comment'])
+        //             ->line('Terima Kasih');
         return (new MailMessage)
-                    ->subject("Project Updation Notification")
-                    ->line("Salam Sejahtera,")
-                    ->line("Sila semak ulasan dan kemas kini permohonan anda.")
-                    ->line($this->userData['comment'])
-                    ->line('Thank you');
+                    ->subject("PERMINTAAN SEMAKAN/KEMASKINI PERMOHONAN PROJEK")
+                    ->view('email.send_project_comment', [
+                        'userData' =>  $this->userData
+                     ]);
     }
 
     /**

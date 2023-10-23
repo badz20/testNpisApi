@@ -1470,6 +1470,20 @@ class ValueManagementController extends Controller
                         ->selectRaw('MONTH(tarikh_mula) as month_mula, MONTH(tarikh_tamat) as month_tamat, YEAR(vm_perancagan_makmal.created_at) as created_at_year')
                         ->distinct()
                         ->get();
+
+                    // Get only perancangan makmal mini data for project id  
+                    $projectData =   DB::table('vm_perancagan_makmal')
+                        ->leftJoin('pemantauan_project', 'pemantauan_project.id', '=', 'vm_perancagan_makmal.pp_id')
+                        ->when($isAdmin, function ($query) use($user){
+                            return $query->where('pemantauan_project.bahagian_pemilik',$user->bahagian_id);
+                        })
+                        ->whereYear('vm_perancagan_makmal.created_at', date('Y'))->where('vm_perancagan_makmal.row_status',1)
+                        ->where(function($query2) {
+                            $query2->where('pemantauan_project.kos_projeck','<=',50000000)
+                                    ->orWhere('pemantauan_project.Is_changed_to_va','!=',1);
+                        })
+                        ->where('pp_id', $key)
+                        ->get();
                 }
                 else if($type=='VE')
                 {
@@ -1536,6 +1550,20 @@ class ValueManagementController extends Controller
                                             })
                                             ->selectRaw('MONTH(tarikh_mula) as month_mula, MONTH(tarikh_tamat) as month_tamat, YEAR(ve_perancagan_makmal.created_at) as created_at_year')
                                             ->distinct()
+                                            ->get();
+
+                    // Get only perancangan makmal ve data for project id  
+                    $projectData =   DB::table('ve_perancagan_makmal')
+                                            ->leftJoin('pemantauan_project', 'pemantauan_project.id', '=', 've_perancagan_makmal.pp_id')
+                                            ->when($isAdmin, function ($query) use($user){
+                                                return $query->where('pemantauan_project.bahagian_pemilik',$user->bahagian_id);
+                                            })
+                                            ->whereYear('ve_perancagan_makmal.created_at', date('Y'))->where('ve_perancagan_makmal.row_status',1)
+                                            ->where(function($query2) {
+                                                $query2->where('pemantauan_project.kos_projeck','>',50000000)
+                                                ->orWhere('pemantauan_project.Is_changed_to_va','=',1);
+                                            })
+                                            ->where('pp_id', $key)
                                             ->get();
 
                 }
@@ -1606,6 +1634,20 @@ class ValueManagementController extends Controller
                                             ->distinct()
                                             ->get();
 
+                    // Get only perancangan makmal vr data for project id             
+                    $projectData =   DB::table('vr_perancagan_makmal')
+                                            ->leftJoin('pemantauan_project', 'pemantauan_project.id', '=', 'vr_perancagan_makmal.pp_id')
+                                            ->when($isAdmin, function ($query) use($user){
+                                                return $query->where('pemantauan_project.bahagian_pemilik',$user->bahagian_id);
+                                            })
+                                            ->whereYear('vr_perancagan_makmal.created_at', date('Y'))->where('vr_perancagan_makmal.row_status',1)
+                                            ->where(function($query2) {
+                                                $query2->where('pemantauan_project.kos_projeck','>',50000000)
+                                                ->orWhere('pemantauan_project.Is_changed_to_va','=',1);
+                                            })
+                                            ->where('pp_id', $key)
+                                            ->get();
+
                 }
                 else
                 {
@@ -1673,6 +1715,20 @@ class ValueManagementController extends Controller
                                             ->selectRaw('MONTH(tarikh_mula) as month_mula, MONTH(tarikh_tamat) as month_tamat, YEAR(vm_perancagan_makmal.created_at) as created_at_year')
                                             ->distinct()
                                             ->get();
+                
+                    // Get only perancangan makmal data for project id                        
+                    $projectData =   DB::table('vm_perancagan_makmal')
+                                            ->leftJoin('pemantauan_project', 'pemantauan_project.id', '=', 'vm_perancagan_makmal.pp_id')
+                                            ->when($isAdmin, function ($query) use($user){
+                                                return $query->where('pemantauan_project.bahagian_pemilik',$user->bahagian_id);
+                                            })
+                                            ->whereYear('vm_perancagan_makmal.created_at', date('Y'))->where('vm_perancagan_makmal.row_status',1)
+                                            ->where(function($query2) {
+                                                $query2->where('pemantauan_project.kos_projeck','>',50000000)
+                                                ->orWhere('pemantauan_project.Is_changed_to_va','=',1);
+                                            })
+                                            ->where('pp_id', $key)
+                                            ->get();
                 }
 
                 $uniqueMonths = collect($months)->pluck('month_mula')->merge(collect($months)->pluck('month_tamat'))->unique();
@@ -1689,6 +1745,7 @@ class ValueManagementController extends Controller
             'months'=>$months,
             'uniqueMonths'=>$uniqueMonths,
             'years'=>$years,
+            'projectData'=>$projectData,
         ]);
     }
 

@@ -35,6 +35,7 @@ use \App\Models\NocSkop;
 use \App\Models\NamaAgensi;
 use \App\Models\nocKementerianSilling;
 use \App\Models\nocKementerianEconomiSilling;
+use \App\Models\Noc_keperluanModel;
 
 
 class NOC_Controller extends Controller
@@ -67,6 +68,8 @@ class NOC_Controller extends Controller
             $agensi = NamaAgensi::where('row_status',1)->get();
             $unit =  \App\Models\OutputUnit::where('IsActive','=',1)->get();
 
+            $butiran = lookupOption('butiran');
+
 
 
             //$data = \App\Models\NocModule::where('noc_status','!=','')->get(['id','no_rujukan','kod_projeck','nama_projek']);
@@ -79,7 +82,8 @@ class NOC_Controller extends Controller
                 'all_lists' => $data2,
                 'skop' => $skop_project,
                 'agensi' => $agensi,
-                'unit_data' => $unit
+                'unit_data' => $unit,
+                'butiran'  => $butiran,
             ]);
 
         } catch (\Throwable $th) {
@@ -420,7 +424,7 @@ class NOC_Controller extends Controller
             $kod_projek=NULL;
             if($request->valueThree)
             {
-                $kod_projek=$request->valueOne.$request->valueTwo.$request->valueThree.$request->valueFour;
+                $kod_projek=$request->valueThree.'.'.$request->valueFour;
             }
             $AlreadyExist = noc_projectModel::where('pp_id', $request->project_id)->first();
 
@@ -453,6 +457,8 @@ class NOC_Controller extends Controller
                                                     'dikemaskini_pada' => Carbon::now()->format('Y-m-d H:i:s'),
                                                     'lampiran_file_name' => $lampiran_file_name,
                                                     'memo_file_name' => $memo_file_name,
+                                                    'penerangan' => $request->penerangan,
+                                                    'butiran_code' => $request->butiran_code,
                                                 ]);
 
                 $noc_id=$AlreadyExist['id'];
@@ -477,6 +483,8 @@ class NOC_Controller extends Controller
                                                     'dikemaskini_pada' => Carbon::now()->format('Y-m-d H:i:s'),
                                                     'lampiran_file_name' => $lampiran_file_name,
                                                     'memo_file_name' => $memo_file_name,
+                                                    'penerangan' => $request->penerangan,
+                                                    'butiran_code' => $request->butiran_code,
                                                 ]);
 
                 $noc_id=$data['id'];
@@ -750,30 +758,32 @@ class NOC_Controller extends Controller
 
     public function StoreNocOutput(Request $request){
         try {
-                    $noc_data = noc_projectModel::where('pp_id', $request->project_id)->first();
-                    $noc_id=$noc_data['id'];
 
-
-                    $output=noc_OutputModel::where('noc_id',$noc_id)->where('pp_id',$request->project_id)->delete();
-                    foreach ($request->output as $outputdetails) {  
-                        $data = json_decode($outputdetails, TRUE);
-                        $data_noc = noc_OutputModel::create([   
-                                                                'pp_id' => $request->project_id,
-                                                                'noc_id'=> $noc_id,
-                                                                'Permohonan_Projek_id' => $request->project_id,
-                                                                'unit_id' => $data['unit_id'],
-                                                                'output_proj' => $data['output_proj'],
-                                                                'Kuantiti' => $data['Kuantiti'],
-                                                                'dibuat_oleh' => $request->user_id,
-                                                                'no_rujukan'=>$request->noRujukan,
-                                                                'row_status' => 1,                  
-                                                                'created_at' =>  Carbon::now()->format('Y-m-d H:i:s'),            
-                                                                'dibuat_pada' => Carbon::now()->format('Y-m-d H:i:s'),
-                                                                'dibuat_oleh' => $request->user_id,
-                                                                'dikemaskini_oleh' => $request->user_id,
-                                                                'dikemaskini_pada' => Carbon::now()->format('Y-m-d H:i:s'),
-                                                            ]);
+                    $output=noc_OutputModel::where('noc_id',$request->noc_id)->delete();
+                    if($request->output)
+                    {
+                        foreach ($request->output as $outputdetails) {  
+                            $noc_data = json_decode($outputdetails, TRUE); Log::info($noc_data);
+                            $data_noc = noc_OutputModel::create([   
+                                                                    'pp_id' => $request->project_id,
+                                                                    'noc_id'=> $request->noc_id,
+                                                                    'Permohonan_Projek_id' => $request->project_id,
+                                                                    'unit_id' => $noc_data['unit_id'],
+                                                                    'output_proj' => $noc_data['output_proj'],
+                                                                    'Kuantiti' => $noc_data['Kuantiti'],
+                                                                    'dibuat_oleh' => $request->user_id,
+                                                                    'no_rujukan'=>'',
+                                                                    'row_status' => 1,                  
+                                                                    'created_at' =>  Carbon::now()->format('Y-m-d H:i:s'),            
+                                                                    'dibuat_pada' => Carbon::now()->format('Y-m-d H:i:s'),
+                                                                    'dibuat_oleh' => $request->user_id,
+                                                                    'dikemaskini_oleh' => $request->user_id,
+                                                                    'dikemaskini_pada' => Carbon::now()->format('Y-m-d H:i:s'),
+                                                                ]);
+                        }
+                        
                     }
+                    
                 
                 return response()->json([
                     'code' => '200',
@@ -1077,13 +1087,15 @@ class NOC_Controller extends Controller
         try {
             $user = \App\Models\User::whereId($id)->with('bahagian')->first(); 
 
+            Log::info($user);
+
             
 
             $query = DB::table('noc_project')
                             ->leftjoin('pemantauan_project','pemantauan_project.id', '=','noc_project.pp_id')
                             ->leftjoin('status','status.status', '=','noc_project.status_id')
                             ->leftjoin('noc_checked_status','noc_checked_status.noc_id', '=','noc_project.id')
-                            ->select('pemantauan_project.kod_projeck','pemantauan_project.bahagian_pemilik','pemantauan_project.no_rujukan as rujukan','pemantauan_project.nama_projek as name','noc_project.*','status.status_name','noc_checked_status.*');
+                            ->select('pemantauan_project.kod_projeck','pemantauan_project.bahagian_pemilik','pemantauan_project.no_rujukan as rujukan','pemantauan_project.nama_projek as name','noc_project.*','noc_project.status_id as status','status.status_name','noc_checked_status.*');
 
 
                             if($user->bahagian->acym == 'BKOR'|| $user->bahagian->acym == 'BPK') { 
@@ -1142,7 +1154,7 @@ class NOC_Controller extends Controller
     public function nocPageData($id){
 
         try {
-            $result = \App\Models\noc_projectModel::with('media')->where('id',$id)->where('row_status',1)->first();
+            $result = \App\Models\noc_projectModel::with('media','updated_by')->where('id',$id)->where('row_status',1)->first();
             // dd($result->id);
             $result2 = \App\Models\noc_ButiranBaharuModel::where('noc_id',$id)->where('row_status',1)->first();
 
@@ -1152,15 +1164,24 @@ class NOC_Controller extends Controller
 
             $skop_data = NocSkop::where('noc_id',$id)->where('sub_skop_id','0')->get();
             $sub_skop_data = NocSkop::where('noc_id',$id)->where('skop_kos','0')->get();
-
-            $lampiran = $result->getMedia('lampiran_file_name')->first();
-            $memo = $result->getMedia('memo_file_name')->first();
+            $lampiran='';
+            $memo='';
+            if($result)
+            {
+                $lampiran = $result->getMedia('lampiran_file_name')->first();
+                $memo = $result->getMedia('memo_file_name')->first();
+            }
 
             $pindan = \App\Models\Noc_pindan::with('media','agensi')->where('noc_id', $id)->get();
             $maklumbalas_data = \App\Models\MaklumbalasPindan::with('media')->where('noc_id', $id)->get();
 
+            $user_data = DB::table('noc_project')
+                            ->join('users','users.id', '=','noc_project.dibuat_oleh')
+                            ->join('ref_bahagian','ref_bahagian.id', '=','users.bahagian_id')
+                            ->select('noc_project.dibuat_pada','ref_bahagian.nama_bahagian','users.name')
+                            ->where('noc_project.id',$id)->first();
 
-
+            $skop_project = SkopOption::with('subskop')->get();
 
             return response()->json([
                 'code' => '200',
@@ -1174,7 +1195,9 @@ class NOC_Controller extends Controller
                 'lampiran_file_name' => $lampiran,
                 'memo_file_name' => $memo,
                 'pindan_data' => $pindan,
-                'maklumbalas_data' => $maklumbalas_data
+                'maklumbalas_data' => $maklumbalas_data,
+                'user_data' => $user_data,
+                'skop_project' => $skop_project,
             ]);
 
         } catch (\Throwable $th) {
@@ -1285,9 +1308,9 @@ class NOC_Controller extends Controller
             ]);
         }
     }
-    public function NocOutputData($id,$noc_id){
+    public function NocOutputData($noc_id){
         try {
-            $result = noc_OutputModel::where('pp_id',$id)->where('noc_id',$noc_id)->get();
+            $result = noc_OutputModel::where('noc_id',$noc_id)->get();
             return response()->json([
                 'code' => '200',
                 'status' => 'Success',
@@ -1322,9 +1345,9 @@ class NOC_Controller extends Controller
         }
     }
 
-    public function NocOutcomeData($id,$noc_id){
+    public function NocOutcomeData($noc_id){
         try {
-            $result = noc_OutcomeModel::where('pp_id',$id)->where('noc_id',$noc_id)->get();
+            $result = noc_OutcomeModel::where('noc_id',$noc_id)->get();
 
             return response()->json([
                 'code' => '200',
@@ -1716,8 +1739,8 @@ class NOC_Controller extends Controller
         try {
 
             $data['noc'] = noc_projectModel::where('id',$id)->where('row_status',1)->first();
-            $data['noc_kementerian'] = NOCKementerian::with(['media'])->where('noc_id',$id)->where('row_status',1)->first();
-            $data['noc_economi'] = NOCKementerianEconomi::where('noc_id',$id)->where('row_status',1)->first();
+            $data['noc_kementerian'] = NOCKementerian::with(['media'])->where('noc_id',$id)->where('row_status',1)->get();
+            $data['noc_economi'] = NOCKementerianEconomi::where('noc_id',$id)->where('row_status',1)->get();
 
 
             return response()->json([
@@ -2026,7 +2049,8 @@ class NOC_Controller extends Controller
                 $data['outcome_type'] = 'pemantauan';
             }
 
-            $data['project_data'] = PemantauanProject::with(['bahagianPemilik','rmk'])->where('id',$id)->first();
+            $data['project_data'] = PemantauanProject::with(['bahagianPemilik','rmk','kementerian','negeri'])->where('id',$id)->first();
+
 
         
             return response()->json([
@@ -2104,18 +2128,22 @@ class NOC_Controller extends Controller
 
     }
 
-    public function ListProjects($id)
+    public function ListProjects($id,$type)
     {
         try {
 
             $data=PemantauanProject::get();
-            $data1=nocSelectedProjeck::with('bahagianPemilik','peruntukan')->where('noc_id',$id)->get();
+            $data2=nocSelectedProjeck::with('bahagianPemilik','peruntukan')->where('type',0)->where('noc_id',$id)->get();
+            $data1=nocSelectedProjeck::with('bahagianPemilik','peruntukan')->where('type',1)->where('noc_id',$id)->get();
+            $data3=NOCPeruntukan::where('id',$id)->first();
 
             return response()->json([
                 'code' => '200',
                 'status' => 'Success',
                 'data' => $data,
-                'noc_data'=>$data1
+                'noc_data_jps'=>$data1,
+                'noc_data_agensy'=>$data2,
+                'noc_data' => $data3
             ]);
 
         } catch (\Throwable $th) {
@@ -2150,7 +2178,13 @@ class NOC_Controller extends Controller
         try {
                 if($request->project_array)
                 {
-                    nocSelectedProjeck::where('noc_id',$request->noc_id)->delete();  
+                    $type=0;
+                    if($request->type==1)
+                    { 
+                        $type = 1;
+                    }
+
+                    nocSelectedProjeck::where('noc_id',$request->noc_id)->where('type',$type)->delete();  
 
                     foreach($request->project_array as $project){
                         $project_json = json_decode($project,TRUE);
@@ -2166,6 +2200,7 @@ class NOC_Controller extends Controller
                         $noc_data->dibuat_oleh = $request->user_id;
                         $noc_data->dikemaskini_oleh = $request->user_id;
                         $noc_data->bahagian_pemilik = 4;
+                        $noc_data->type = $type;
                         $noc_data->dikemaskini_pada = Carbon::now()->format('Y-m-d H:i:s');
                         $noc_data->dibuat_pada = Carbon::now()->format('Y-m-d H:i:s');
                         $noc_data->save();  
@@ -2228,13 +2263,28 @@ class NOC_Controller extends Controller
         try {
             $data['noc'] = NOCPeruntukan::where('id',$id)->where('row_status',1)->first();
             $result=nocKementerianSilling::with(['media'])->where('noc_id',$id)->where('row_status',1)->first();
-            $data['noc_kementerian'] = $result;
-            $data['noc_kementerian_file'] = $result->getMedia('kementerian_file_name')->first();
-            $data['noc_kelulusan_file'] = $result->getMedia('kelulusan_file_name')->first();
+            $data['noc_kementerian_file']=[];
+            $data['noc_kelulusan_file']=[];
+            $data['noc_kementerian'] = [];
+
+            if($result)
+            {
+                $data['noc_kementerian'] = $result;
+                $data['noc_kementerian_file'] = $result->getMedia('kementerian_file_name')->first();
+                $data['noc_kelulusan_file'] = $result->getMedia('kelulusan_file_name')->first();
+            }
+           
             $result_noc_economi = nocKementerianEconomiSilling::with(['media'])->where('noc_id',$id)->where('row_status',1)->first();
-            $data['noc_economi'] = $result_noc_economi;
-            $data['noc_economi_kementerian_file'] = $result_noc_economi->getMedia('economi_hanter_file_name')->first();
-            $data['noc_economi_kelulusan_file'] = $result_noc_economi->getMedia('economi_surat_file_name')->first();
+            $data['noc_economi'] = [];
+            $data['noc_economi_kementerian_file'] = [];
+            $data['noc_economi_kelulusan_file'] = [];
+
+            if($result_noc_economi)
+            {
+                $data['noc_economi'] = $result_noc_economi;
+                $data['noc_economi_kementerian_file'] = $result_noc_economi->getMedia('economi_hanter_file_name')->first();
+                $data['noc_economi_kelulusan_file'] = $result_noc_economi->getMedia('economi_surat_file_name')->first();    
+            }
 
             return response()->json([
                 'code' => '200',
@@ -2291,7 +2341,8 @@ class NOC_Controller extends Controller
                                                     'dibuat_oleh' => $request->user_id,
                                                     'dikemaskini_oleh' => $request->user_id,
                                                     'dikemaskini_pada' => Carbon::now()->format('Y-m-d H:i:s'),
-                                                    'justifikasi' => $request->justification
+                                                    'justifikasi' => $request->justification,
+                                                    'penerangan' => $request->penerangan,
                                                 ]);
 
                 $noc_id=$data['id'];
@@ -2446,10 +2497,16 @@ class NOC_Controller extends Controller
         try {
                 if($request->noc_jps_data){ 
 
+                    $type=0;
+                    if($request->type == 1)
+                    {
+                        $type = 1;
+                    }
+
                     foreach ($request->noc_jps_data as $noc_jps_data) {  
                         $sub_json = json_decode($noc_jps_data,TRUE); 
 
-                        $bilanagan_data = nocSelectedProjeck::where('id',$sub_json['id'])->first();
+                        $bilanagan_data = nocSelectedProjeck::where('id',$sub_json['id'])->where('type',$type)->first();
                             $bilanagan_data->peruntukan_asal = $sub_json['peruntukan_asal'];
                             $bilanagan_data->tambah = $sub_json['tamba'];
                             $bilanagan_data->kurang = $sub_json['kurang'];
@@ -2459,6 +2516,26 @@ class NOC_Controller extends Controller
                     }
                 }
 
+                return response()->json([
+                    'code' => '200',
+                    'status' => 'Success'
+                ]);
+            } catch (\Throwable $th) {
+                logger()->error($th->getMessage());
+                return response()->json([
+                    'code' => '500',
+                    'status' => 'Failed',
+                    'error' => $th,
+                ]);
+            }    
+    }
+    
+    public function updateBilanganToggleStatus(Request $request){
+        try {
+                $data = NOCPeruntukan::where('id',$request->noc_id)->first();
+                $data->active_status = $request->status;
+                $data->update();
+                
                 return response()->json([
                     'code' => '200',
                     'status' => 'Success'
@@ -2577,5 +2654,173 @@ class NOC_Controller extends Controller
                     'error' => $th->getMessage(),
                 ]);
             }
+    }
+
+    public function getJBTdata(Request $request)
+    {
+
+        try {
+            
+            $projects =   PemantauanProject::with(['negeri','bahagianPemilik','kementerian','kepeluruhan'])->where('jps_status',1)->get();
+
+            $data['negeri'] = getAllNegeri();
+            $data['bahagian'] = getAllBahagian();
+            $data['kementerian'] = getAllKementerian();
+            $data['projects'] = $projects;
+
+            return response()->json([
+                'code' => '200',
+                'status' => 'Success',
+                'data' => $data,
+                
+            ]);
+
+
+
+        } catch (\Throwable $th) {
+
+            logger()->error($th->getMessage());
+             //------------ error log store and email --------------------
+            
+             $body = [
+                'application_name' => env('APP_NAME'),
+                'application_type' => Agent::isPhone(),
+                'url' => request()->fullUrl(),
+                'error_log' => $th->getMessage(),
+                'error_code' => $th->getCode(),
+                'ip_address' =>  request()->ip(),
+                'user_agent' => request()->userAgent(),
+                'email' => env('ERROR_EMAIL'),
+            ];
+
+            CallApi($body);
+
+            //------------- end of store and email -----------------------
+            return response()->json([
+                'code' => '500',
+                'status' => 'Failed',
+                'error' => $th,
+            ]);
+        }    
+        
+    }
+
+    public function updateKeperluanData(Request $request){
+        try {
+                if($request->keperluanData){ 
+
+                    $sum_tambahan = '0.00';
+                    foreach ($request->keperluanData as $keperluandata) {  
+                        $sub_json = json_decode($keperluandata,TRUE); 
+
+                        $keperluandata = new Noc_keperluanModel;
+                        $keperluandata->pemantauan_id = $sub_json['project_id'];
+                        $keperluandata->tarikh_kemaskini = Carbon::now()->format('Y-m-d');
+                        $keperluandata->kepeluruan_amaun = $sub_json['keperluan_amaun'];
+                        $keperluandata->justifikasi = $sub_json['justifikasi'];
+                        $keperluandata->rekod_permohonan = $sub_json['rekod_permohonan'];
+                        $keperluandata->amaun = $sub_json['rekod_aman'];
+                        $keperluandata->taikh_waran = $sub_json['tarikh_waran'];
+                        $keperluandata->waran_tambahan = $sub_json['waran_tambahan'];
+                        $keperluandata->waran_pemulangan = $sub_json['waran_penulangan'];
+                        $keperluandata->dibuat_oleh = $request->user_id;
+                        $keperluandata->dibuat_pada = Carbon::now()->format('Y-m-d H:i:s');
+                        $keperluandata->dikemaskini_oleh = $request->user_id;
+                        $keperluandata->dikemaskini_pada = Carbon::now()->format('Y-m-d H:i:s');
+                        $keperluandata->row_status = 1;
+                        $keperluandata->save();
+
+                        $this->getAndUpdateTambahan($sub_json['project_id']);
+
+                    }
+                }
+
+                return response()->json([
+                    'code' => '200',
+                    'status' => 'Success'
+                ]);
+            } catch (\Throwable $th) {
+                logger()->error($th->getMessage());
+                return response()->json([
+                    'code' => '500',
+                    'status' => 'Failed',
+                    'error' => $th,
+                ]);
+            }    
+    }
+
+    public function getAndUpdateTambahan($id)
+    {
+        Log::info($id);
+        $tambahan = Noc_keperluanModel::where('pemantauan_id',$id)->get(); Log::info($tambahan);
+        $tamba=0;
+        $pemulangan=0;
+        for($i=0;$i<count($tambahan);$i++) {  Log::info($tambahan[$i]['waran_tambahan']);
+            $tamba=$tamba+$tambahan[$i]['waran_tambahan'];
+            $pemulangan=$pemulangan+$tambahan[$i]['waran_pemulangan'];
+        }
+        Log::info($tamba);
+
+        $pjct_data = PemantauanProject::where('id', '=',$id)->first();
+        $pjct_data->tambahan = $tamba;
+        $pjct_data->pemulangan = $pemulangan;
+        $pjct_data->peruntukan_dipinda = $tamba-$pemulangan;
+        $pjct_data->update();
+    }
+
+    public function filteredIndex(Request $request)
+    {
+        try {
+
+            Log::info($request);
+            
+            $tempQuery = PemantauanProject::with(['negeri','daerah','bahagianPemilik','kepeluruhan'])->where('jps_status',1);
+
+            if($request->query_negeri != null) {
+                $tempQuery->where('negeri_id', $request->query_negeri);
+            }
+
+            if($request->query_bahagian != null) {
+                $tempQuery->where('bahagian_pemilik', $request->query_bahagian);
+            }
+
+            if($request->query_kementeian != null) {
+                $tempQuery->where('kementeian', $request->query_kementeian);
+            }
+
+            $projects = $tempQuery->get();
+
+            return response()->json([
+                'code' => '200',
+                'status' => 'Success',
+                'data' => $projects,
+                
+            ]);
+
+        } catch (\Throwable $th) {
+
+            logger()->error($th->getMessage());
+             //------------ error log store and email --------------------
+            
+             $body = [
+                'application_name' => env('APP_NAME'),
+                'application_type' => Agent::isPhone(),
+                'url' => request()->fullUrl(),
+                'error_log' => $th->getMessage(),
+                'error_code' => $th->getCode(),
+                'ip_address' =>  request()->ip(),
+                'user_agent' => request()->userAgent(),
+                'email' => env('ERROR_EMAIL'),
+            ];
+
+            CallApi($body);
+
+            //------------- end of store and email -----------------------
+            return response()->json([
+                'code' => '500',
+                'status' => 'Failed',
+                'error' => $th,
+            ]);
+        } 
     }
 }

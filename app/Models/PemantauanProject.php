@@ -75,4 +75,19 @@ class PemantauanProject extends Model
     {
         return $this->belongsTo(\App\Models\RollingPlan::class, 'rmk', 'rmk')->withDefault();
     }
+
+    public function kementerian()
+    {
+        return $this->belongsTo(\App\Models\refKementerian::class, 'kementerian', 'id')->withDefault();
+    }
+
+    public function kepeluruhan()
+    {        
+        return $this->hasMany(\App\Models\Noc_keperluanModel::class,'pemantauan_id');
+    }
+
+    public function butiran()
+    {
+        return $this->belongsTo(\App\Models\LookupOption::class, 'butiran_code', 'code')->withDefault();
+    }
 }

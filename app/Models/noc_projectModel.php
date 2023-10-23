@@ -28,7 +28,8 @@ class noc_projectModel extends Model  implements HasMedia
         'is_hidden',
         'row_status',
         'status_id',
-        'justifikasi'
+        'justifikasi',
+        'penerangan'
     ];
 
     public function projects()
@@ -39,5 +40,10 @@ class noc_projectModel extends Model  implements HasMedia
     public function statuses()
     {
         return $this->belongsTo(\App\Models\Status::class, 'status_id', 'status')->withDefault();
+    }
+
+    public function updated_by()
+    {
+        return $this->belongsTo(\App\Models\User::class, 'dibuat_oleh', 'id')->withDefault();
     }
 }

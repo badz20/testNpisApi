@@ -32,6 +32,7 @@ return new class extends Migration
             $table->decimal('kurang ', $precision = 20, $scale = 2)->nullable();
             $table->decimal('dipinda ', $precision = 20, $scale = 2)->nullable();
             $table->text('justifikasi')->nullable();
+            $table->boolean('type')->default(0);
             $table->foreignId('bahagian_pemilik')->constrained('ref_bahagian');
             $table->integer('dibuat_oleh')->nullable();
             $table->dateTime('dibuat_pada')->nullable();

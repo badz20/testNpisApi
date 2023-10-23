@@ -22,6 +22,7 @@ return new class extends Migration
             $table->integer('status_permohonan')->nullable();
             $table->integer('status')->nullable();
             $table->boolean('type')->default(0);
+            $table->boolean('active_status')->default(0);
             $table->integer('dibuat_oleh')->nullable();
             $table->dateTime('dibuat_pada')->useCurrent()->nullable();
             $table->integer('dikemaskini_oleh')->nullable();

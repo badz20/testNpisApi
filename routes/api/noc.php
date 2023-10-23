@@ -22,8 +22,8 @@ Route::name('api.noc.')
         Route::get('/nocPageData/{kod}', [NOC_Controller::class, 'nocPageData'])->name('noc.project.nocPageData');
         Route::get('/projectData/{kod}', [NOC_Controller::class, 'projectData'])->name('noc.project.projectData');
         Route::get('/nocKpiData/{kod}', [NOC_Controller::class, 'nocKpiData'])->name('noc.project.nocKpiData');
-        Route::get('/NocOutputData/{kod}/{noc_id}', [NOC_Controller::class, 'NocOutputData'])->name('noc.project.NocOutputData');
-        Route::get('/NocOutcomeData/{kod}/{noc_id}', [NOC_Controller::class, 'NocOutcomeData'])->name('noc.project.NocOutcomeData');
+        Route::get('/NocOutputData/{noc_id}', [NOC_Controller::class, 'NocOutputData'])->name('noc.project.NocOutputData');
+        Route::get('/NocOutcomeData/{noc_id}', [NOC_Controller::class, 'NocOutcomeData'])->name('noc.project.NocOutcomeData');
         Route::get('/negeri-details/{id}', [NOC_Controller::class, 'negeriDetails_noc'])->name('projnegerilokasnoc.details');
         Route::get('/negeri-details-pementuan/{id}', [NOC_Controller::class, 'negeriDetails_pementuan'])->name('projnegerilokaspem.details');
         Route::post('/StoreNocButiranBaharu', [NOC_Controller::class, 'StoreNocButiranBaharu'])->name('noc.project.StoreNocButiranBaharu');
@@ -37,7 +37,7 @@ Route::name('api.noc.')
         Route::post('/addNOC', [NOC_Controller::class, 'addNOC'])->name('noc.addNOC');
         Route::get('/get-old-project-details/{kod}', [NOC_Controller::class, 'getOldProjectDetails'])->name('noc.project.getOldProjectDetails');
         Route::get('/get-checkbox-statuses/{pp_id}/{noc_id}', [NOC_Controller::class, 'getCheckboxStatuses'])->name('noc.project.getCheckboxStatuses');
-        Route::get('/list_projects/{id}', [NOC_Controller::class, 'ListProjects'])->name('noc.ListProjects');
+        Route::get('/list_projects/{id}/{type}', [NOC_Controller::class, 'ListProjects'])->name('noc.ListProjects');
         Route::post('/addNOC-project', [NOC_Controller::class, 'addNOCProject'])->name('noc.addNOCProject');
         Route::post('/deleteNOC', [NOC_Controller::class, 'deleteNOC'])->name('noc.deleteNOC');
         Route::post('/update_noc_status', [NOC_Controller::class, 'updateNocStatus'])->name('noc.updateNocStatus');
@@ -50,14 +50,17 @@ Route::name('api.noc.')
         Route::post('/save-pindan-data', [NOC_Controller::class, 'savePindanData'])->name('noc.savePindanData');
         Route::post('/save-maklubalas-data', [NOC_Controller::class, 'saveMaklubalasData'])->name('noc.saveMaklubalasData');
         Route::post('/updateBilanganData', [NOC_Controller::class, 'updateBilanganData'])->name('noc.updateBilanganData');
-
-    });
+        Route::post('/update_bilangan_toggle_status', [NOC_Controller::class, 'updateBilanganToggleStatus'])->name('noc.updateBilanganToggleStatus');
+        Route::post('/updateKeperluanData', [NOC_Controller::class, 'updateKeperluanData'])->name('noc.updateKeperluanData');
+});
 
 
 Route::name('api.noc.')    
     ->prefix('noc')
     ->group(function () {
         Route::get('/get_noc_data', [NOC_Controller::class, 'getNocData'])->name('noc.getNocData');
+        Route::get('/jbt_project_list', [NOC_Controller::class, 'getJBTdata'])->name('noc.getJBTdata');
+        Route::get('/project_filter_list', [NOC_Controller::class, 'filteredIndex'])->name('noc.project.filtered.list');
 });
 
 

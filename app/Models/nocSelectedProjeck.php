@@ -35,6 +35,7 @@ class nocSelectedProjeck extends Model
                             'dikemaskini_pada',
                             'status_id',
                             'row_status',
+                            'type',
     ];
 
     public function bahagianPemilik()

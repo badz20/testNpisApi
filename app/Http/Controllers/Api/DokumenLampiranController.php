@@ -314,15 +314,26 @@ class DokumenLampiranController extends Controller
     { 
 
         try { 
-            $file_name= $request->document; 
-            
-            $original_file_name = $file_name->getClientOriginalName();
-            $extension       = $file_name->getClientOriginalExtension();
-            $fileWithoutExt  = str_replace(".","",basename($original_file_name, $extension));  
-            $updated_fileName = $fileWithoutExt."_".rand(0,99).".".$extension;
+                // $file_name= $request->document; 
+                $file_name = $request->file('fail_dokumen');
+                $project_id = $request->id;
 
                 $lampirian= new DokumenLampiran;  
-                $lampirian->permohonan_projek_id = $request->id;
+                $lampirian->permohonan_projek_id = $project_id;
+
+                if($request->hasFile('fail_dokumen')) {
+                    $original_file_name = $file_name->getClientOriginalName();
+                    $extension       = $file_name->getClientOriginalExtension();
+                    $fileWithoutExt  = str_replace(".","",basename($original_file_name, $extension));  
+                    $updated_fileName = $fileWithoutExt."_".rand(0,99).".".$extension;
+                    $directory = public_path('images/dokumen_lampiran');
+                    // Ensure the directory exists or create it
+                    if (!file_exists($directory)) {
+                        mkdir($directory, 0777, true);
+                    }
+
+                    $request->file('fail_dokumen')->move($directory, $updated_fileName);
+                }
         
                 if($request->rowCount==0)
                 {
@@ -361,7 +372,7 @@ class DokumenLampiranController extends Controller
                 $lampirian->dikemaskini_pada=Carbon::now()->format('Y-m-d H:i:s');
                 $lampirian->row_status=1;
                 $lampirian->save();
-        
+
                 if($request->file('document')) {
                     $lampirian
                     ->addMedia($request->file('document'))
@@ -372,7 +383,7 @@ class DokumenLampiranController extends Controller
                     'code' => '200',
                     'status' => 'Success',
                     'message' => 'saved',
-                    'data'=> $lampirian
+                    'data' =>$lampirian,
                 ]);
         } catch (\Throwable $th) {
             logger()->error($th->getMessage());
@@ -408,28 +419,36 @@ class DokumenLampiranController extends Controller
     {
         try {
                 $section_name='Dokumen - remove';
-                        $user_data = DB::table('users')
-                                        ->join('ref_jawatan','ref_jawatan.id', '=','users.jawatan_id')
-                                        ->select('users.*','ref_jawatan.nama_jawatan')->where('users.id',$request->user_id)->first();
-                        $no_rojukan_data = DB::table('projects')->select('no_rujukan')->where('id',$request->project_id)->first();
-                        $logData=[
-                                    'user_id' =>$request->user_id, 
-                                    'section_name'=>$section_name,   
-                                    'projek_id'=>$request->project_id,
-                                    'modul' => 'Permohonan Projek',
-                                    'user_ic_no' => $user_data->no_ic,
-                                    'user_jawatan' => $user_data->nama_jawatan,
-                                    'user_name' => $user_data->name,
-                                    'no_rujukan' => $no_rojukan_data-> no_rujukan,
-                                ];
-                        DB::connection(env('DB_CONNECTION_AUDIT'))->table('projek_log')->insert($logData);
+                $user_data = DB::table('users')
+                                ->join('ref_jawatan','ref_jawatan.id', '=','users.jawatan_id')
+                                ->select('users.*','ref_jawatan.nama_jawatan')
+                                ->where('users.id',$request->user_id)->first();
+                $no_rojukan_data = DB::table('projects')->select('no_rujukan')->where('id',$request->project_id)->first();
+                $logData=[
+                            'user_id' =>$request->user_id, 
+                            'section_name'=>$section_name,   
+                            'projek_id'=>$request->project_id,
+                            'modul' => 'Permohonan Projek',
+                            'user_ic_no' => $user_data->no_ic,
+                            'user_jawatan' => $user_data->nama_jawatan,
+                            'user_name' => $user_data->name,
+                            'no_rujukan' => $no_rojukan_data-> no_rujukan,
+                        ];
+                DB::connection(env('DB_CONNECTION_AUDIT'))->table('projek_log')->insert($logData);
 
-                return DokumenLampiran::where('id', $request->id)->update([
+                DokumenLampiran::where('id', $request->id)->update([
                     'dikemaskini_oleh' => $request->user_id,
                     'dikemaskini_pada' => Carbon::now()->format('Y-m-d H:i:s'),
-                    'dibuat_oleh' => $request->user_id,
-                    'dibuat_pada' => Carbon::now()->format('Y-m-d H:i:s'),
                     'row_status'=>0
+                ]);
+
+                $lampiran = DokumenLampiran::findOrFail($request->id);
+
+                return response()->json([
+                    'code' => '200',
+                    'status' => 'Success',
+                    'message' => 'Delete',
+                    'data' => $lampiran,
                 ]);
             } catch (\Throwable $th) {
                 logger()->error($th->getMessage());
@@ -698,5 +717,19 @@ class DokumenLampiranController extends Controller
                 'error' => $th,
             ]);
         }
+    }
+
+    public function getDocumentLainData(Request $request) 
+    {
+        $lampiran = DokumenLampiran::where('permohonan_projek_id', $request->id)
+            ->where('row_status', 1)
+            ->whereNull('lfm_dokumen_nama')
+            ->get();
+
+        return response()->json([
+            'code' => '200',
+            'status' => 'Success',
+            'data' => $lampiran,
+        ]);
     }
 }

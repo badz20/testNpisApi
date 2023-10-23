@@ -13,12 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('noc_project', function (Blueprint $table) {
-            $table->text('justifikasi')->nullable();
-            $table->string('lampiran_file_name', 200)->nullable();
-            $table->string('memo_file_name', 200)->nullable();
-            $table->text('penerangan')->nullable();
-            $table->string('butiran_code', 200)->nullable();
+        //
+        Schema::table('project_kewangan_belanja_mengurus_details', function (Blueprint $table) {
+            $table->string('text', 255)->nullable();
         });
     }
 
@@ -30,5 +27,8 @@ return new class extends Migration
     public function down()
     {
         //
+        Schema::table('project_kewangan_belanja_mengurus_details', function (Blueprint $table) {
+            $table->string('text', 255)->nullable();
+        });
     }
 };

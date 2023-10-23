@@ -14,8 +14,7 @@ use \App\Models\Project;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Jenssegers\Agent\Facades\Agent;
-
-
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 class ProjectNegeriLokasController extends Controller
 {
@@ -28,10 +27,10 @@ class ProjectNegeriLokasController extends Controller
                 ->get();
 
             $data['negeri'] = $negeri_lokas;
-            $data['documents'] = \App\Models\ProjectNegeriDokumen::select('id', 'projek_negeri_dokumen_name', 'keterangan')
-                ->where('permohonan_Projek_id', $id)
-                ->where('row_status', 1)
-                ->orderBy('id', 'DESC')->get();
+            $data['documents'] = \App\Models\ProjectNegeriDokumen::with('media')->select('id', 'projek_negeri_dokumen_name', 'keterangan')
+                                ->where('permohonan_Projek_id', $id)
+                                ->where('row_status', 1)
+                                ->orderBy('id', 'DESC')->get();
 
             $data['negeriselection'] = \App\Models\Project::select('negeri_selection_type', 'koordinat_latitude', 'koordinat_longitude')
                 ->where('id', $id)
@@ -291,9 +290,9 @@ class ProjectNegeriLokasController extends Controller
             ]);
 
             if ($request->file('gambar_image')) {
-                $negeri
-                    ->addMedia($request->file('gambar_image'))
-                    ->toMediaCollection('negeri_document');
+                $negeri->clearMediaCollection('negeri_document');
+                $negeri->addMedia($request->file('gambar_image'))
+                        ->toMediaCollection('negeri_document');
             }
 
             return $negeri;
@@ -453,7 +452,7 @@ class ProjectNegeriLokasController extends Controller
                 return response()->json([
                     'code' => '422',
                     'status' => 'Unprocessable Entity',
-                    'data' => $validator->errors(),
+                    // 'data' => $validator->errors(),
                 ]);
             }
         } catch (\Throwable $th) {
@@ -569,5 +568,40 @@ class ProjectNegeriLokasController extends Controller
                 'error' => $th,
             ]);
         }
+    }
+
+    function downloadDokumen(Request $request ,Media $mediaItem){
+        
+        try {
+                $id = $request->id;
+                $doc = ProjectNegeriDokumen::where('id','=',$id)->first();
+                $mediaItem = $doc->getFirstMedia('negeri_document');
+                return response()->download($mediaItem->getPath(), $mediaItem->file_name);
+        } catch (\Throwable $th) {
+                logger()->error($th->getMessage());
+    
+                    //------------ error log store and email --------------------
+                
+                    $body = [
+                        'application_name' => env('APP_NAME'),
+                        'application_type' => Agent::isPhone(),
+                        'url' => request()->fullUrl(),
+                        'error_log' => $th->getMessage(),
+                        'error_code' => $th->getCode(),
+                        'ip_address' =>  request()->ip(),
+                        'user_agent' => request()->userAgent(),
+                        'email' => env('ERROR_EMAIL'),
+                    ];
+        
+                    CallApi($body);
+        
+                    //------------- end of store and email -----------------------
+    
+                return response()->json([
+                    'code' => '500',
+                    'status' => 'Failed',
+                    'error' => $th,
+                ]);
+            }
     }
 }

@@ -33,7 +33,7 @@ class KewanganSkopController extends Controller
             $result['yuranperundingtapak'] = KewanganYuranPerundingTapak::where('permohonan_projek_id','=',$id)->where('row_status','=',1)->get();
             $result['skop'] = GetProjectSkops::where('project_id','=',$id)->where('row_status','=',1)->get();
             $result['skopsforkewangan'] = KewanganSkop::where('permohonan_projek_id','=',$id)->where('row_status','=',1)->get();
-            $result['subskopsforkewangan'] = KewanganSubSkop::where('permohonan_projek_id','=',$id)->where('row_status','=',1)->orderby('id','DESC')->get();
+            $result['subskopsforkewangan'] = KewanganSubSkop::where('permohonan_projek_id','=',$id)->where('row_status','=',1)->orderby('id','ASC')->get();
     
             return response()->json([
                 'code' => '200',

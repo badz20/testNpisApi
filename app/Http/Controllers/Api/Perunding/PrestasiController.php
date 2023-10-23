@@ -767,6 +767,15 @@ class PrestasiController extends Controller
                             'dikemaskini_oleh' => $request->user_id,
                             'dikemaskini_pada' => Carbon::now()->format('Y-m-d H:i:s'),
                         ]);
+
+                    PemantauanPerolehan::where('pemantauan_id', $request->pemantauan_id)
+                                    ->whereId($request->perolehan_id)
+                                    ->update([
+                                        'kemajuan_jadual' => $deliverable['peratusKumulatifJadual'],
+                                        'kemajuan_sebenar' => $deliverable['peratusKumulatifSebenar'],
+                                        'penilaiyan' => $deliverable['penilaian'],
+                                        'status_pelaksanaan' => $deliverable['statusPelaksanaan']
+                                    ]);
                 }
                 // $deliverable = $new_completed_deliverables[0];
                 // PerundingPrestasi::where('pemantauan_id', $request->pemantauan_id)

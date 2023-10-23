@@ -4,6 +4,7 @@ use App\Models\User;
 use App\Models\UserType;
 use App\Models\refNegeri;
 use App\Models\refBahagian;
+use App\Models\refKementerian;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Log;
@@ -120,5 +121,12 @@ if (! function_exists('getAllBahagian')) {
     function getAllBahagian()
     {    
        return refBahagian::orderBy('nama_bahagian')->get();
+    }
+}
+
+if (! function_exists('getAllKementerian')) {
+    function getAllKementerian()
+    {    
+       return refKementerian::orderBy('nama_kementerian')->get();
     }
 }

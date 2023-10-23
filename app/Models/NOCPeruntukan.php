@@ -20,11 +20,13 @@ class NOCPeruntukan extends Model implements HasMedia
         'tarikh_tutup',
         'status_permohonan',
         'status',
+        'type',
         'dibuat_oleh',
         'dibuat_pada',
         'dikemaskini_oleh',
         'dikemaskini_pada',
         'row_status',
+        'active_status',
     ];
     
 }

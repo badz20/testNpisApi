@@ -29,10 +29,11 @@ use App\Http\Controllers\Api\PptController;
 use App\Http\Controllers\Api\KementerianController;
 use App\Http\Controllers\Api\ConvertPptToPdf;
 use App\Http\Controllers\Api\vae_Controller;
+use App\Http\Controllers\Api\Permohonan\KewanganBelanjaMengurusController;
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\ValueManagementController;
-
+use App\Models\ProjectNegeriLokas;
 
 Route::name('api.project.')
     ->middleware('auth:sanctum')
@@ -100,7 +101,7 @@ Route::name('api.project.')
         Route::post('/delete-gambar-image', [ProjectNegeriLokasController::class, 'deleteDocument'])->name('projectnegerilokas.deletedocument'); 
         Route::get('/rmkobb-details', [RmkObbController::class, 'list'])->name('Rmk.Obb.Aktivitydetails');
         Route::get('/negeri-details-ringkasan/{id}', [ProjectNegeriLokasController::class, 'negeriDetailsforringkasan'])->name('projectnegerilokas.negeriDetailsforringkasan');
-
+        Route::get('/negeri_dokumen_download', [ProjectNegeriLokasController::class, 'downloadDokumen'])->name('projectnegerilokas.downloadDokumen');
 
         Route::post('/rmkobbpage-details/{id}', [RmkObbPageController::class, 'store'])->name('Rmk.Obb.Pagedetails');
         
@@ -128,6 +129,7 @@ Route::name('api.project.')
         Route::post('/delete-lampiran-image', [DokumenLampiranController::class, 'deleteDocumentlampiran'])->name('DokumenLampiran.deletedocumentlampiran');
         Route::get('/dokumen_download', [DokumenLampiranController::class, 'downloadImg'])->name('DokumenLampiran.dokumen_download');
         Route::get('/download-dokumen-format', [DokumenLampiranController::class, 'docFormat'])->name('DokumenLampiran.docFormat');
+        Route::get('/get-dokumen-lain-data', [DokumenLampiranController::class, 'getDocumentLainData'])->name('DokumenLampiran.getDocumentLainData');
 
         Route::post('/add-project-kpi', [ProjectKpiController::class, 'addProjectKpi'])->name('projectKPI.addProjectKpi'); 
         Route::get('/list-project-kpi/{id}', [ProjectKpiController::class, 'listProjectKpi'])->name('projectKPI.listProjectKpi'); 
@@ -234,4 +236,7 @@ Route::name('api.project.')
         Route::post('/update-bayangan-data', [ProjectController::class, 'updateBayanganData'])->name('project.updateBayanganData');
         Route::post('/update-total-bayangan-data', [ProjectController::class, 'updateTotalBayangan'])->name('project.updateTotalBayangan');
 
+        //kewangan belanja mengurus
+        Route::post('/kewangan/belanja_mengurus', [KewanganBelanjaMengurusController::class, 'store'])->name('project.belanja.mengurus.store');
+        Route::get('/kewangan/belanja_mengurus', [KewanganBelanjaMengurusController::class, 'index'])->name('project.belanja.mengurus.index');
     });
